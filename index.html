@@ -1,0 +1,2694 @@
+<!DOCTYPE html>
+<html lang="kn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ಹರಿವಂಶ ಮಹಾಪುರಾಣ ಉಪನ್ಯಾಸ — ಸಂಪೂರ್ಣ ಪ್ರವಚನ ದರ್ಶನ | Sri Harivamsha Purana Pravachana</title>
+  <meta name="description" content="ಪರಮಪೂಜ್ಯ ಶ್ರೀ ೧೦೦೮ ಶ್ರೀ ಸುವಿದ್ಯೇಂದ್ರ ತೀರ್ಥ ಶ್ರೀಪಾದಂಗಳವರ ಅಮೃತವಾಣಿಯಲ್ಲಿ ಮೂಡಿಬಂದ ಹರಿವಂಶ ಮಹಾಪುರಾಣ ಪ್ರವಚನದ ವಿಸ್ತೃತ ಉಪನ್ಯಾಸ ಸ್ಲೈಡ್-ಡೆಕ್ ಹಾಗೂ ವಂಶಾವಳಿ ದರ್ಶನ.">
+  <style>
+    /* ==========================================================================
+       DESIGN SYSTEM & THEME TOKENS
+       ========================================================================== */
+    :root {
+      --bg-primary: #120c08;
+      --bg-secondary: #1c140e;
+      --bg-card: rgba(36, 24, 18, 0.85);
+      --bg-card-hover: rgba(48, 32, 24, 0.95);
+      --bg-accent-soft: rgba(212, 175, 55, 0.08);
+      
+      --text-primary: #fcf6e8;
+      --text-secondary: #e2ceb1;
+      --text-muted: #a8947e;
+      --text-highlight: #ffdd80;
+      
+      --accent-saffron: #e65c00;
+      --accent-vermilion: #b7410e;
+      --accent-gold: #d4af37;
+      --accent-gold-bright: #ffd700;
+      --accent-crimson: #8b0000;
+      --accent-emerald: #2e8b57;
+      
+      --border-gold: rgba(212, 175, 55, 0.35);
+      --border-saffron: rgba(230, 92, 0, 0.3);
+      --border-subtle: rgba(255, 255, 255, 0.08);
+      
+      --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.35);
+      --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.5);
+      --shadow-lg: 0 16px 48px rgba(0, 0, 0, 0.7);
+      --shadow-gold: 0 0 20px rgba(212, 175, 55, 0.25);
+      
+      --radius-sm: 6px;
+      --radius-md: 12px;
+      --radius-lg: 18px;
+      --radius-full: 9999px;
+      
+      --font-indic: 'Tunga', 'Nirmala UI', 'Kalinga', 'Noto Sans Kannada', 'Segoe UI', serif;
+      --font-sanskrit: 'Martel', 'Georgia', 'Times New Roman', serif;
+      --font-body: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      
+      --transition-fast: 0.2s ease;
+      --transition-normal: 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    [data-theme="parchment"] {
+      --bg-primary: #f7f1e1;
+      --bg-secondary: #ede3ce;
+      --bg-card: rgba(255, 252, 242, 0.92);
+      --bg-card-hover: #ffffff;
+      --bg-accent-soft: rgba(183, 65, 14, 0.07);
+      
+      --text-primary: #26160c;
+      --text-secondary: #4a3424;
+      --text-muted: #78604d;
+      --text-highlight: #8b0000;
+      
+      --accent-saffron: #c84e00;
+      --accent-vermilion: #9e2a00;
+      --accent-gold: #b38600;
+      --accent-gold-bright: #cc9900;
+      --accent-crimson: #7a0000;
+      
+      --border-gold: rgba(179, 134, 0, 0.4);
+      --border-saffron: rgba(183, 65, 14, 0.35);
+      --border-subtle: rgba(74, 52, 36, 0.12);
+      
+      --shadow-sm: 0 4px 12px rgba(90, 50, 20, 0.08);
+      --shadow-md: 0 8px 24px rgba(90, 50, 20, 0.14);
+      --shadow-lg: 0 16px 40px rgba(90, 50, 20, 0.2);
+      --shadow-gold: 0 0 18px rgba(179, 134, 0, 0.2);
+    }
+
+    /* ==========================================================================
+       GLOBAL RESETS & BASE STYLES
+       ========================================================================== */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-primary);
+      background-image: 
+        radial-gradient(circle at 15% 15%, rgba(212, 175, 55, 0.06) 0%, transparent 40%),
+        radial-gradient(circle at 85% 85%, rgba(183, 65, 14, 0.08) 0%, transparent 40%);
+      color: var(--text-primary);
+      font-family: var(--font-indic);
+      line-height: 1.6;
+      overflow-x: hidden;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      transition: background-color var(--transition-normal), color var(--transition-normal);
+    }
+
+    /* Custom scrollbars */
+    ::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: var(--bg-secondary);
+    }
+    ::-webkit-scrollbar-thumb {
+      background: var(--accent-gold);
+      border-radius: var(--radius-full);
+    }
+
+    /* ==========================================================================
+       HEADER & NAVIGATION BAR
+       ========================================================================== */
+    .top-bar {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: var(--bg-secondary);
+      border-bottom: 2px solid var(--border-gold);
+      box-shadow: var(--shadow-sm);
+      backdrop-filter: blur(10px);
+      padding: 0.6rem 1.25rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+
+    .brand-section {
+      display: flex;
+      align-items: center;
+      gap: 0.85rem;
+      min-width: 0;
+    }
+
+    .brand-icon {
+      font-size: 1.6rem;
+      line-height: 1;
+      filter: drop-shadow(0 0 6px var(--accent-gold));
+    }
+
+    .brand-titles {
+      display: flex;
+      flex-direction: column;
+      min-width: 0;
+    }
+
+    .brand-main {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--text-highlight);
+      letter-spacing: 0.5px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .brand-sub {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .day-selector-group {
+      display: flex;
+      align-items: center;
+      gap: 0.35rem;
+      background: rgba(0, 0, 0, 0.3);
+      padding: 0.2rem;
+      border-radius: var(--radius-full);
+      border: 1px solid var(--border-gold);
+      margin-left: 0.5rem;
+    }
+
+    .day-link-btn {
+      text-decoration: none;
+      padding: 0.25rem 0.65rem;
+      border-radius: var(--radius-full);
+      font-size: 0.76rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      transition: all var(--transition-fast);
+    }
+
+    .day-link-btn:hover {
+      color: var(--text-primary);
+    }
+
+    .day-link-btn.active {
+      background: linear-gradient(135deg, var(--accent-saffron), var(--accent-vermilion));
+      color: #ffffff;
+      box-shadow: 0 2px 8px rgba(230, 92, 0, 0.4);
+    }
+
+    .top-controls {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+
+    .search-wrapper {
+      position: relative;
+      width: 240px;
+    }
+
+    .search-input {
+      width: 100%;
+      background: var(--bg-primary);
+      border: 1px solid var(--border-gold);
+      border-radius: var(--radius-full);
+      padding: 0.4rem 0.85rem 0.4rem 2rem;
+      font-size: 0.85rem;
+      color: var(--text-primary);
+      outline: none;
+      transition: all var(--transition-fast);
+    }
+
+    .search-input:focus {
+      border-color: var(--accent-gold-bright);
+      box-shadow: var(--shadow-gold);
+      width: 280px;
+    }
+
+    .search-icon {
+      position: absolute;
+      left: 0.65rem;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 0.85rem;
+      color: var(--accent-gold);
+      pointer-events: none;
+    }
+
+    .btn-icon {
+      background: var(--bg-primary);
+      border: 1px solid var(--border-gold);
+      color: var(--text-secondary);
+      border-radius: var(--radius-md);
+      padding: 0.45rem 0.75rem;
+      font-size: 0.88rem;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      font-family: inherit;
+      transition: all var(--transition-fast);
+      user-select: none;
+    }
+
+    .btn-icon:hover {
+      background: var(--accent-vermilion);
+      color: #ffffff;
+      border-color: var(--accent-saffron);
+      transform: translateY(-1px);
+    }
+
+    .btn-icon:active {
+      transform: translateY(0);
+    }
+
+    .badge-parva {
+      background: linear-gradient(135deg, var(--accent-crimson), var(--accent-vermilion));
+      color: #ffffff;
+      padding: 0.2rem 0.65rem;
+      border-radius: var(--radius-full);
+      font-size: 0.75rem;
+      font-weight: bold;
+      letter-spacing: 0.5px;
+      border: 1px solid rgba(255, 215, 0, 0.4);
+      display: inline-flex;
+      align-items: center;
+      gap: 0.3rem;
+    }
+
+    /* ==========================================================================
+       SIDE DRAWER / INDEX
+       ========================================================================== */
+    .drawer-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.65);
+      backdrop-filter: blur(4px);
+      z-index: 200;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity var(--transition-normal), visibility var(--transition-normal);
+    }
+
+    .drawer-overlay.open {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .index-drawer {
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      width: 380px;
+      max-width: 90vw;
+      background: var(--bg-secondary);
+      border-left: 2px solid var(--border-gold);
+      box-shadow: var(--shadow-lg);
+      z-index: 210;
+      transform: translateX(100%);
+      transition: transform var(--transition-normal);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .drawer-overlay.open .index-drawer {
+      transform: translateX(0);
+    }
+
+    .drawer-header {
+      padding: 1.1rem 1.25rem;
+      border-bottom: 1px solid var(--border-gold);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: rgba(0, 0, 0, 0.2);
+    }
+
+    .drawer-title {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--text-highlight);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .drawer-close {
+      background: transparent;
+      border: none;
+      color: var(--text-muted);
+      font-size: 1.5rem;
+      cursor: pointer;
+      line-height: 1;
+      padding: 0.2rem;
+    }
+
+    .drawer-close:hover {
+      color: var(--accent-saffron);
+    }
+
+    .drawer-content {
+      flex: 1;
+      overflow-y: auto;
+      padding: 1rem 0.85rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+    }
+
+    .drawer-section-title {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--accent-gold);
+      padding: 0 0.5rem 0.35rem 0.5rem;
+      border-bottom: 1px dashed var(--border-gold);
+      margin-bottom: 0.4rem;
+      font-weight: 700;
+    }
+
+    .drawer-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.65rem;
+      padding: 0.6rem 0.75rem;
+      border-radius: var(--radius-md);
+      cursor: pointer;
+      transition: all var(--transition-fast);
+      border: 1px solid transparent;
+      text-align: left;
+      background: transparent;
+      color: var(--text-secondary);
+      font-family: inherit;
+      width: 100%;
+    }
+
+    .drawer-item:hover {
+      background: var(--bg-card);
+      border-color: var(--border-gold);
+      color: var(--text-highlight);
+      transform: translateX(-3px);
+    }
+
+    .drawer-item.active {
+      background: linear-gradient(90deg, rgba(183, 65, 14, 0.3), rgba(212, 175, 55, 0.15));
+      border-color: var(--accent-gold);
+      color: var(--text-highlight);
+      font-weight: 600;
+    }
+
+    .drawer-item-num {
+      background: var(--accent-vermilion);
+      color: #ffffff;
+      font-size: 0.72rem;
+      font-weight: bold;
+      width: 24px;
+      height: 24px;
+      border-radius: var(--radius-full);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    .drawer-item-info {
+      display: flex;
+      flex-direction: column;
+      min-width: 0;
+    }
+
+    .drawer-item-title {
+      font-size: 0.88rem;
+      line-height: 1.35;
+      color: inherit;
+    }
+
+    .drawer-item-sub {
+      font-size: 0.72rem;
+      color: var(--text-muted);
+      margin-top: 2px;
+    }
+
+    /* ==========================================================================
+       MAIN PRESENTATION ENGINE & SLIDE VIEWPORT
+       ========================================================================== */
+    .deck-container {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 1.5rem 1.25rem 6.5rem 1.25rem;
+      position: relative;
+      max-width: 1400px;
+      margin: 0 auto;
+      width: 100%;
+    }
+
+    .slide-viewport {
+      width: 100%;
+      min-height: calc(100vh - 160px);
+      position: relative;
+    }
+
+    .slide {
+      display: none;
+      animation: fadeInSlide 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+      background: var(--bg-card);
+      border: 1px solid var(--border-gold);
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-lg);
+      padding: 2.25rem 2.5rem;
+      position: relative;
+      backdrop-filter: blur(12px);
+      overflow: hidden;
+    }
+
+    .slide.active {
+      display: block;
+    }
+
+    @keyframes fadeInSlide {
+      from {
+        opacity: 0;
+        transform: translateY(12px) scale(0.99);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+      }
+    }
+
+    /* Slide Decorative Frame Corner Ornaments */
+    .slide::before,
+    .slide::after {
+      content: "❖";
+      position: absolute;
+      font-size: 1.1rem;
+      color: var(--accent-gold);
+      opacity: 0.6;
+    }
+    .slide::before {
+      top: 12px;
+      left: 14px;
+    }
+    .slide::after {
+      top: 12px;
+      right: 14px;
+    }
+
+    /* Slide Header */
+    .slide-header {
+      border-bottom: 2px solid var(--border-gold);
+      padding-bottom: 1.1rem;
+      margin-bottom: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.4rem;
+    }
+
+    .slide-meta-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .slide-katha-tag {
+      font-size: 0.8rem;
+      color: var(--accent-gold);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+
+    .slide-number-badge {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      background: var(--bg-primary);
+      padding: 0.2rem 0.6rem;
+      border-radius: var(--radius-full);
+      border: 1px solid var(--border-subtle);
+    }
+
+    .slide-title {
+      font-size: 1.85rem;
+      font-weight: 700;
+      color: var(--text-highlight);
+      line-height: 1.3;
+      letter-spacing: 0.3px;
+    }
+
+    .slide-subtitle {
+      font-size: 1.05rem;
+      color: var(--text-secondary);
+      font-weight: 400;
+    }
+
+    /* Slide Content Layout Grid */
+    .slide-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.75rem;
+      margin-bottom: 1.75rem;
+    }
+
+    .slide-grid.single-col {
+      grid-template-columns: 1fr;
+    }
+
+    .slide-grid.tree-layout {
+      grid-template-columns: 1.15fr 0.85fr;
+    }
+
+    /* Content Cards */
+    .content-box {
+      background: rgba(0, 0, 0, 0.22);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-md);
+      padding: 1.25rem 1.4rem;
+      transition: border-color var(--transition-fast);
+    }
+
+    .content-box:hover {
+      border-color: var(--border-gold);
+    }
+
+    .box-title {
+      font-size: 1.12rem;
+      font-weight: 700;
+      color: var(--accent-gold-bright);
+      margin-bottom: 0.85rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      border-bottom: 1px dashed rgba(212, 175, 55, 0.3);
+      padding-bottom: 0.4rem;
+    }
+
+    .concept-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.8rem;
+    }
+
+    .concept-item {
+      position: relative;
+      padding-left: 1.45rem;
+      font-size: 1rem;
+      color: var(--text-secondary);
+      line-height: 1.55;
+    }
+
+    .concept-item::before {
+      content: "✦";
+      position: absolute;
+      left: 0;
+      top: 1px;
+      color: var(--accent-saffron);
+      font-size: 0.85rem;
+    }
+
+    .concept-item strong {
+      color: var(--text-primary);
+      font-weight: 600;
+    }
+
+    /* Highlight Shloka Box */
+    .shloka-box {
+      background: linear-gradient(135deg, rgba(139, 0, 0, 0.25), rgba(183, 65, 14, 0.15));
+      border: 1px solid var(--accent-gold);
+      border-left: 5px solid var(--accent-gold-bright);
+      border-radius: var(--radius-md);
+      padding: 1.15rem 1.35rem;
+      margin: 1rem 0;
+      position: relative;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .shloka-source {
+      font-size: 0.76rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--accent-gold);
+      font-weight: bold;
+      margin-bottom: 0.4rem;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+
+    .shloka-sanskrit {
+      font-family: var(--font-sanskrit);
+      font-size: 1.15rem;
+      line-height: 1.6;
+      color: var(--text-highlight);
+      font-weight: 600;
+      white-space: pre-line;
+      text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+      margin-bottom: 0.6rem;
+    }
+
+    .shloka-kannada {
+      font-size: 1.05rem;
+      line-height: 1.65;
+      color: var(--text-primary);
+      white-space: pre-line;
+      margin-bottom: 0.6rem;
+    }
+
+    .shloka-meaning {
+      font-size: 0.92rem;
+      color: var(--text-secondary);
+      line-height: 1.5;
+      border-top: 1px dashed rgba(212, 175, 55, 0.35);
+      padding-top: 0.5rem;
+      font-style: italic;
+    }
+
+    /* Speaker Notes Box (Upanyasa Notes / Vinyasa Tips) */
+    .speaker-cue-box {
+      background: linear-gradient(135deg, rgba(30, 20, 15, 0.95), rgba(45, 28, 18, 0.95));
+      border: 1.5px solid var(--accent-saffron);
+      border-radius: var(--radius-md);
+      padding: 1rem 1.35rem;
+      margin-top: 1.25rem;
+      position: relative;
+      box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.5);
+    }
+
+    [data-theme="parchment"] .speaker-cue-box {
+      background: linear-gradient(135deg, #fff7eb, #faebd7);
+      border-color: var(--accent-vermilion);
+    }
+
+    .speaker-cue-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 0.5rem;
+    }
+
+    .speaker-cue-title {
+      font-size: 0.88rem;
+      font-weight: 700;
+      color: var(--accent-gold-bright);
+      display: flex;
+      align-items: center;
+      gap: 0.45rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .speaker-cue-tag {
+      font-size: 0.72rem;
+      background: var(--accent-vermilion);
+      color: #ffffff;
+      padding: 0.15rem 0.5rem;
+      border-radius: var(--radius-full);
+      font-weight: 600;
+    }
+
+    .speaker-cue-text {
+      font-size: 0.92rem;
+      color: var(--text-secondary);
+      line-height: 1.55;
+    }
+
+    /* ==========================================================================
+       GENEALOGY TREES & VAMSHA VRIKSHA VISUALIZER
+       ========================================================================== */
+    .tree-container {
+      background: rgba(0, 0, 0, 0.28);
+      border: 1px solid var(--border-gold);
+      border-radius: var(--radius-md);
+      padding: 1.5rem 1.25rem;
+      overflow-x: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1.25rem;
+    }
+
+    .tree-level {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1.5rem;
+      position: relative;
+      width: 100%;
+      flex-wrap: wrap;
+    }
+
+    .tree-node {
+      background: var(--bg-secondary);
+      border: 1.5px solid var(--border-gold);
+      border-radius: var(--radius-md);
+      padding: 0.65rem 0.95rem;
+      min-width: 140px;
+      text-align: center;
+      box-shadow: var(--shadow-sm);
+      transition: all var(--transition-fast);
+      position: relative;
+      cursor: default;
+    }
+
+    .tree-node:hover {
+      border-color: var(--accent-gold-bright);
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-gold);
+    }
+
+    .tree-node.root {
+      background: linear-gradient(135deg, var(--accent-crimson), #3e0c0c);
+      border-color: var(--accent-gold-bright);
+      border-width: 2px;
+    }
+
+    .tree-node.avatar {
+      background: linear-gradient(135deg, #1b3d2f, #0f241c);
+      border-color: #4ade80;
+    }
+
+    .tree-node.branch {
+      background: linear-gradient(135deg, #3d2a1b, #24160c);
+      border-color: var(--accent-saffron);
+    }
+
+    .node-title {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--text-highlight);
+      line-height: 1.25;
+    }
+
+    .node-desc {
+      font-size: 0.74rem;
+      color: var(--text-muted);
+      margin-top: 2px;
+      line-height: 1.2;
+    }
+
+    .node-badge {
+      display: inline-block;
+      font-size: 0.65rem;
+      padding: 0.1rem 0.4rem;
+      border-radius: var(--radius-full);
+      margin-top: 4px;
+      font-weight: 600;
+      background: rgba(255, 255, 255, 0.1);
+      color: var(--text-secondary);
+    }
+
+    .tree-connector {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--accent-gold);
+      font-size: 1.1rem;
+      opacity: 0.75;
+      margin: -0.4rem 0;
+    }
+
+    /* Multi-branch split connector */
+    .tree-branches-split {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+      gap: 1rem;
+      width: 100%;
+      position: relative;
+    }
+
+    /* Comparison Table */
+    .comparison-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 0.85rem 0;
+      font-size: 0.92rem;
+    }
+
+    .comparison-table th {
+      background: rgba(183, 65, 14, 0.3);
+      color: var(--accent-gold-bright);
+      text-align: left;
+      padding: 0.65rem 0.85rem;
+      border: 1px solid var(--border-gold);
+      font-weight: 700;
+    }
+
+    .comparison-table td {
+      padding: 0.65rem 0.85rem;
+      border: 1px solid var(--border-subtle);
+      color: var(--text-secondary);
+      background: rgba(0, 0, 0, 0.15);
+    }
+
+    .comparison-table tr:hover td {
+      background: rgba(212, 175, 55, 0.08);
+      color: var(--text-primary);
+    }
+
+    /* ==========================================================================
+       BOTTOM FLOATING CONTROLLER
+       ========================================================================== */
+    .bottom-controller {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: var(--bg-secondary);
+      border-top: 2px solid var(--border-gold);
+      box-shadow: 0 -8px 24px rgba(0, 0, 0, 0.6);
+      backdrop-filter: blur(12px);
+      padding: 0.75rem 1.5rem;
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+
+    .nav-btn-group {
+      display: flex;
+      align-items: center;
+      gap: 0.65rem;
+    }
+
+    .btn-nav {
+      background: linear-gradient(135deg, var(--accent-crimson), var(--accent-vermilion));
+      color: #ffffff;
+      border: 1px solid var(--accent-gold);
+      padding: 0.55rem 1.25rem;
+      border-radius: var(--radius-md);
+      font-size: 0.92rem;
+      font-weight: 700;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45rem;
+      font-family: inherit;
+      transition: all var(--transition-fast);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .btn-nav:hover:not(:disabled) {
+      filter: brightness(1.15);
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-gold);
+    }
+
+    .btn-nav:disabled {
+      opacity: 0.4;
+      cursor: not-allowed;
+      filter: grayscale(0.8);
+      transform: none;
+    }
+
+    .progress-bar-container {
+      flex: 1;
+      max-width: 480px;
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+    }
+
+    .progress-track {
+      width: 100%;
+      height: 6px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: var(--radius-full);
+      overflow: hidden;
+      border: 1px solid var(--border-subtle);
+    }
+
+    .progress-fill {
+      height: 100%;
+      background: linear-gradient(90deg, var(--accent-saffron), var(--accent-gold-bright));
+      width: 4%;
+      transition: width var(--transition-normal);
+      border-radius: var(--radius-full);
+    }
+
+    .progress-labels {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.78rem;
+      color: var(--text-muted);
+    }
+
+    .shortcuts-hint {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.78rem;
+      color: var(--text-muted);
+    }
+
+    .key-badge {
+      background: var(--bg-primary);
+      border: 1px solid var(--border-gold);
+      border-radius: var(--radius-sm);
+      padding: 0.15rem 0.4rem;
+      font-size: 0.72rem;
+      color: var(--accent-gold-bright);
+      font-family: monospace;
+    }
+
+    /* ==========================================================================
+       A4 PRINT / HANDBOOK STYLING (@media print)
+       ========================================================================== */
+    @media print {
+      body {
+        background: #ffffff !important;
+        color: #1a1a1a !important;
+        font-size: 11pt;
+      }
+
+      .top-bar,
+      .bottom-controller,
+      .drawer-overlay,
+      .index-drawer,
+      .btn-icon,
+      .shortcuts-hint {
+        display: none !important;
+      }
+
+      .deck-container {
+        padding: 0 !important;
+        max-width: 100% !important;
+      }
+
+      .slide-viewport {
+        min-height: auto !important;
+      }
+
+      .slide {
+        display: block !important;
+        page-break-after: always;
+        break-after: page;
+        border: 1.5px solid #a87c1c !important;
+        box-shadow: none !important;
+        background: #ffffff !important;
+        margin-bottom: 2rem;
+        padding: 1.5rem !important;
+        color: #1a1a1a !important;
+      }
+
+      .slide::before,
+      .slide::after {
+        color: #a87c1c !important;
+      }
+
+      .slide-title {
+        color: #8b0000 !important;
+      }
+
+      .box-title {
+        color: #b7410e !important;
+        border-bottom-color: #a87c1c !important;
+      }
+
+      .content-box {
+        background: #fdfbf7 !important;
+        border-color: #d1c2a5 !important;
+      }
+
+      .concept-item {
+        color: #2b2b2b !important;
+      }
+
+      .shloka-box {
+        background: #fbf5e8 !important;
+        border: 1.5px solid #a87c1c !important;
+        border-left: 5px solid #8b0000 !important;
+      }
+
+      .shloka-sanskrit {
+        color: #8b0000 !important;
+        text-shadow: none !important;
+      }
+
+      .shloka-kannada {
+        color: #111111 !important;
+      }
+
+      .speaker-cue-box {
+        background: #f6efe2 !important;
+        border-color: #a87c1c !important;
+      }
+
+      .speaker-cue-title {
+        color: #8b0000 !important;
+      }
+
+      .speaker-cue-text {
+        color: #333333 !important;
+      }
+
+      .tree-container {
+        background: #ffffff !important;
+        border-color: #d1c2a5 !important;
+      }
+
+      .tree-node {
+        background: #fbf8f2 !important;
+        border-color: #a87c1c !important;
+        box-shadow: none !important;
+      }
+
+      .node-title {
+        color: #1a1a1a !important;
+      }
+    }
+
+    /* Responsive Adjustments */
+    @media (max-width: 900px) {
+      .slide-grid {
+        grid-template-columns: 1fr;
+      }
+      .slide {
+        padding: 1.5rem 1.25rem;
+      }
+      .slide-title {
+        font-size: 1.45rem;
+      }
+      .shortcuts-hint {
+        display: none;
+      }
+      .search-wrapper {
+        width: 150px;
+      }
+      .search-input:focus {
+        width: 180px;
+      }
+    }
+  </style>
+</head>
+<body data-theme="dark">
+
+  <!-- ==========================================================================
+       TOP NAVIGATION BAR
+       ========================================================================== -->
+  <header class="top-bar">
+    <div class="brand-section">
+      <div class="brand-icon">🕉️</div>
+      <div class="brand-titles">
+        <h1 class="brand-main">ಹರಿವಂಶ ಮಹಾಪುರಾಣ ಪ್ರವಚನ — ಅಧ್ಯಯನ ದರ್ಶನ</h1>
+        <span class="brand-sub">ಶ್ರೀ ೧೦೦೮ ಶ್ರೀ ಸುವಿದ್ಯೇಂದ್ರ ತೀರ್ಥ ಶ್ರೀಪಾದಂಗಳವರ ಅಮೃತವಾಣಿ | Sri Suyateendra / Suvidyendra Teertha Upanyasa Compendium</span>
+      </div>
+      <div class="day-selector-group">
+        <a href="index.html" class="day-link-btn active" title="ದಿನ ೦೧ ಪ್ರವಚನ">ದಿನ ೧</a>
+        <a href="day2.html" class="day-link-btn" title="ದಿನ ೦೨ ಪ್ರವಚನ">ದಿನ ೨</a>
+        <a href="day3.html" class="day-link-btn" title="ದಿನ ೦೩ ಪ್ರವಚನ">ದಿನ ೩</a>
+        <a href="day4.html" class="day-link-btn" title="ದಿನ ೦೪ ಪ್ರವಚನ">ದಿನ ೪</a>
+        <a href="day5.html" class="day-link-btn" title="ದಿನ ೦೫ ಪ್ರವಚನ">ದಿನ ೫</a>
+        <a href="day6.html" class="day-link-btn" title="ದಿನ ೦೬ ಪ್ರವಚನ">ದಿನ ೬</a>
+        <a href="day7.html" class="day-link-btn" title="ದಿನ ೦೭ ಮಂಗಳ ಮಹೋತ್ಸವ">ದಿನ ೭</a>
+      </div>
+    </div>
+
+    <div class="top-controls">
+      <div class="search-wrapper">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="slideSearch" class="search-input" placeholder="ಹುಡುಕಿ (ರಾಜ, ಋಷಿ, ಶ್ಲೋಕ, ಕಥೆ)..." title="ಸ್ಲೈಡ್‌ನಲ್ಲಿ ಹುಡುಕಿ">
+      </div>
+      <button class="btn-icon" id="themeToggle" title="ಥೀಮ್ ಬದಲಿಸಿ (ಕತ್ತಲು / ತಾಳೆಗರಿ)">
+        <span id="themeIcon">📜</span> <span class="btn-text">ಪಾರ್ಚ್‌ಮೆಂಟ್</span>
+      </button>
+      <button class="btn-icon" id="printBtn" title="A4 ಉಪನ್ಯಾಸ ಹ್ಯಾಂಡ್‌ಬುಕ್ ಪ್ರಿಂಟ್ / PDF">
+        <span>🖨️</span> <span class="btn-text">ಹ್ಯಾಂಡ್‌ಬುಕ್</span>
+      </button>
+      <button class="btn-icon" id="drawerToggle" title="ವಿಷಯ ಸೂಚಿ (Index)">
+        <span>☰</span> <span class="btn-text">ಸೂಚಿ</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       SIDE DRAWER / INDEX
+       ========================================================================== -->
+  <div class="drawer-overlay" id="drawerOverlay">
+    <aside class="index-drawer">
+      <div class="drawer-header">
+        <div class="drawer-title">
+          <span>📜</span> ಪ್ರವಚನ ವಿಷಯ ಸೂಚಿ (Index)
+        </div>
+        <button class="drawer-close" id="drawerClose">&times;</button>
+      </div>
+      <div class="drawer-content" id="drawerContent">
+        <!-- Injected dynamically via JavaScript -->
+      </div>
+    </aside>
+  </div>
+
+  <!-- ==========================================================================
+       PRESENTATION DECK CONTAINER
+       ========================================================================== -->
+  <main class="deck-container">
+    <div class="slide-viewport">
+
+      <!-- ====================================================================
+           SLIDE 1: Harivamsha Sthana & Vibhaga - Khila Parva Svaroopa
+           ==================================================================== -->
+      <article class="slide active" data-index="1" data-parva="ಗ್ರಂಥ ಸ್ವರೂಪ" data-category="ಖಿಲಪರ್ವ ವಿಭಾಗ" data-keywords="ಖಿಲಪರ್ವ ೧೮ ಪರ್ವ ಹರಿವಂಶ ವಿಷ್ಣು ಭವಿಷ್ಯ ಪುರಾಣ ಇತಿಹಾಸ">
+        <header class="slide-header">
+          <div class="slide-meta-row">
+            <span class="slide-katha-tag">📚 ಗ್ರಂಥ ವಿವೇಚನೆ • ಮಹಾಭಾರತದ ಪೂರ್ಣತೆ</span>
+            <span class="slide-number-badge">ಸ್ಲೈಡ್ ೧ / ೨೦</span>
+          </div>
+          <h2 class="slide-title">ಹರಿವಂಶದ ಸ್ಥಾನ & ಖಿಲಪರ್ವದ ಮೂರು ವಿಭಾಗಗಳು</h2>
+          <p class="slide-subtitle">ಇತಿಹಾಸದಲ್ಲಿ ಪುರಾಣದ ಸ್ಥಾನ ಗಳಿಸಿದ ಏಕೈಕ ಪವಿತ್ರ ಕೃತಿರತ್ನ</p>
+        </header>
+
+        <div class="slide-grid tree-layout">
+          <div class="content-box">
+            <h3 class="box-title">🏛️ ಮಹಾಭಾರತದ ಖಿಲಪರ್ವ ಎಂದರೇನು?</h3>
+            <ul class="concept-list">
+              <li class="concept-item"><strong>೧೮ ಪರ್ವಗಳ ಮುಕ್ತಾಯ:</strong> ಮಹಾಭಾರತದಲ್ಲಿ ಆದಿಪರ್ವದಿಂದ ಸ್ವರ್ಗಾರೋಹಣ ಪರ್ವದವರೆಗೆ ಒಟ್ಟು ೧೮ ಪ್ರಮುಖ ಪರ್ವಗಳು.</li>
+              <li class="concept-item"><strong>ಖಿಲಪರ್ವ (೧೯ನೆಯ ಪರ್ವ):</strong> 'ಖಿಲ' ಎಂದರೆ ಕೊನೆಯಲ್ಲಿ ಬರುವ ಪುಷ್ಟಿದಾಯಕವಾದ ಅನುಬಂಧ. ಇದು ಮಹಾಭಾರತಕ್ಕೆ ಸೇರಿದ ಅತ್ಯಂತ ಅವಿಭಾಜ್ಯ ಅಂಗ.</li>
+              <li class="concept-item"><strong>ಇತಿಹಾಸ vs ಪುರಾಣ:</strong> ಮಹಾಭಾರತವನ್ನು 'ಇತಿಹಾಸ' ಎನ್ನುತ್ತಾರೆ. ಆದರೆ ಮಹಾಭಾರತಕ್ಕೆ ಸೇರಿದರೂ ಹರಿವಂಶವನ್ನು <strong>ಪುರಾಣ</strong>ವೆಂದೇ ಕರೆಯುತ್ತಾರೆ! ಪುರಾಣ ಎಂದರೆ 'ಪುಣ್ಯಕಥೆ' — ಅಪಾರವಾದ ಪುಣ್ಯವನ್ನು ಪ್ರದಾನ ಮಾಡುವ ದೈವೀ ಚರಿತ್ರೆ.</li>
+            </ul>
+
+            <table class="comparison-table">
+              <thead>
+                <tr>
+                  <th>ಶಾಸ್ತ್ರ</th>
+                  <th>ವರ್ಗೀಕರಣ</th>
+                  <th>ಪ್ರಧಾನ ಲಕ್ಷಣ</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>ಮಹಾಭಾರತ (೧೮ ಪರ್ವ)</td>
+                  <td>ಇತಿಹಾಸ</td>
+                  <td>ಧರ್ಮಯುದ್ಧ, ರಾಜಧರ್ಮ, ವೇದಾರ್ಥ ವಿಸ್ತಾರ</td>
+                </tr>
+                <tr>
+                  <td>ಶ್ರೀಮದ್ಭಾಗವತ</td>
+                  <td>ಮಹಾಪುರಾಣ</td>
+                  <td>ಭಕ್ತಿರಸ, ಕೃಷ್ಣಾವತಾರ, ಮುಕ್ತಿಮಾರ್ಗ</td>
+                </tr>
+                <tr>
+                  <td><strong>ಹರಿವಂಶ (ಖಿಲಪರ್ವ)</strong></td>
+                  <td><strong>ಇತಿಹಾಸಾಂತರ್ಗತ ಪುರಾಣ</strong></td>
+                  <td><strong>ವಂಶಾವಳಿ, ಸಂತಾನ ಫಲ, ಕೃಷ್ಣ ಲೀಲೆ & ಭವಿಷ್ಯ</strong></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="content-box">
+            <h3 class="box-title">🔱 ಹರಿವಂಶದ ೩ ಉಪಪರ್ವಗಳು</h3>
+            <div class="tree-container" style="padding:1rem;">
+              <div class="tree-node root" style="width:100%;">
+                <div class="node-title">ಹರಿವಂಶ ಮಹಾಪುರಾಣ (ಖಿಲಪರ್ವ)</div>
+                <div class="node-desc">ವೇದವ್ಯಾಸ ರಚಿತ ಮಹಾಗ್ರಂಥ</div>
+              </div>
+              <div class="tree-connector">↓ ಮೂರು ಉಪಪರ್ವಗಳು ↓</div>
+              <div class="tree-branches-split" style="grid-template-columns: 1fr;">
+                <div class="tree-node branch">
+                  <div class="node-title">೧. ಹರಿವಂಶ ಪರ್ವ</div>
+                  <div class="node-desc">ಸೃಷ್ಟಿ, ಸೂರ್ಯ-ಚಂದ್ರ-ಯದು ವಂಶಾವಳಿ, ಪಿತೃಕಲ್ಪ</div>
+                  <span class="node-badge" style="background:#b7410e;">ಪ್ರಸ್ತುತ ಪ್ರವಚನ</span>
+                </div>
+                <div class="tree-node branch">
+                  <div class="node-title">೨. ವಿಷ್ಣು ಪರ್ವ</div>
+                  <div class="node-desc">ಶ್ರೀಕೃಷ್ಣ ಜನನ, ಗೋಕುಲ-ಮಥುರಾ-ದ್ವಾರಕಾ ಲೀಲೆಗಳು, ಕಂಸ ವಧೆ</div>
+                  <span class="node-badge">ಕೃಷ್ಣ ಲೀಲಾ ಚರಿತ್ರೆ</span>
+                </div>
+                <div class="tree-node branch">
+                  <div class="node-title">೩. ಭವಿಷ್ಯ ಪರ್ವ</div>
+                  <div class="node-desc">ಕಲಿಯುಗ ಧರ್ಮ, ಭವಿಷ್ಯತ್ ಘಟನೆಗಳು, ಪೌಂಡ್ರಕ ವಧೆ, ಅಶ್ವಮೇಧ</div>
+                  <span class="node-badge">ಯುಗಧರ್ಮ ರಹಸ್ಯ</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="speaker-cue-box">
+          <div class="speaker-cue-header">
+            <span class="speaker-cue-title">🎙️ ಉಪನ್ಯಾಸ ನಿರ್ದೇಶನ (Upanyasa Notes & Speaker Cues)</span>
+            <span class="speaker-cue-tag">ಸ್ಪಷ್ಟೀಕರಣ ಕೌಶಲ</span>
+          </div>
+          <p class="speaker-cue-text">ಸಾರ್ವಜನಿಕರಲ್ಲಿ ಹರಿವಂಶವೆಂದರೆ ಕೇವಲ ಕೃಷ್ಣನ ಬಾಲ್ಯಲೀಲೆಗಳು ಎಂಬ ತಪ್ಪು ಗ್ರಹಿಕೆಯಿರುತ್ತದೆ. ಆದರೆ ಈ ೩ ಉಪಪರ್ವಗಳ ವಿಂಗಡಣೆಯನ್ನು ವಿವರಿಸಿ, ಮೊದಲ ಭಾಗವಾದ ಹರಿವಂಶ ಪರ್ವದಲ್ಲಿರುವ ರಾಜರ್ಷಿಗಳ ಮತ್ತು ಪಿತೃಗಳ ವಂಶಾವಳಿ ಎಷ್ಟು ಗಹನವಾಗಿದೆ ಎಂಬುದನ್ನು ಸಭೆಗೆ ಬಿಂಬಿಸಬೇಕು.</p>
+        </div>
+      </article>
+
+      <!-- ====================================================================
+           SLIDE 2: Harivamsha Mahatmya & Phala-Shruti
+           ==================================================================== -->
+      <article class="slide" data-index="2" data-parva="ಫಲಶ್ರುತಿ" data-category="ಸಂತಾನ ಪ್ರಾಪ್ತಿ" data-keywords="ಫಲಶ್ರುತಿ ಸಂತಾನ ಶತಚಂಡೀ ಶಿವ ಆರಾಧನೆ ರಜೋದೋಷ ೧೦ ಸಲ ಶ್ರವಣ">
+        <header class="slide-header">
+          <div class="slide-meta-row">
+            <span class="slide-katha-tag">🌟 ಶ್ರವಣ ಮಹಾತ್ಮೆ • ಸಾಂಸಾರಿಕ & ಆಧ್ಯಾತ್ಮಿಕ ಫಲ</span>
+            <span class="slide-number-badge">ಸ್ಲೈಡ್ ೨ / ೨೦</span>
+          </div>
+          <h2 class="slide-title">ಹರಿವಂಶ ಶ್ರವಣದ ಮಹಿಮೆ ಹಾಗೂ ಫಲಶ್ರುತಿ</h2>
+          <p class="slide-subtitle">ಭಗವತ್ಪ್ರೀತಿ ಹಾಗೂ ಶ್ರೇಷ್ಠ ಸಂತಾನ ಪ್ರಾಪ್ತಿಯ ಅತಿ ಸುಲಭೋಪಾಯ</p>
+        </header>
+
+        <div class="slide-grid">
+          <div class="content-box">
+            <h3 class="box-title">👶 ಸಂತಾನ ಪ್ರಾಪ್ತಿಯ ಮೂರು ಮಾರ್ಗಗಳ ತೌಲನಿಕ ವಿಶ್ಲೇಷಣೆ</h3>
+            <div class="shloka-box">
+              <div class="shloka-source">ಶಾಸ್ತ್ರೋಕ್ತ ಫಲಶ್ರುತಿ ಪ್ರಮಾಣ</div>
+              <div class="shloka-sanskrit">हरिवंशकथां श्रुत्वा शतचण्डीविधानतः ।
+भक्त्या श्रीशिवमाराध्य पुत्रमुत्पादयेत् सुधीः ॥</div>
+              <div class="shloka-kannada">ಹರಿವಂಶ ಕಥಾಂ ಶ್ರುತ್ವಾ ಶತಚಂಡೀ ವಿಧಾನತಃ ।
+ಭಕ್ತ್ಯಾ ಶ್ರೀಶಿವಮಾರಾಧ್ಯ ಪುತ್ರಮುತ್ಪಾದಯೇತ್ ಸುಧೀಃ ॥</div>
+              <div class="shloka-meaning">ಶಾಸ್ತ್ರವು ಪುತ್ರಪ್ರಾಪ್ತಿಗಾಗಿ ಮೂರು ಉಪಾಯಗಳನ್ನು ನೀಡಿದೆ: ಹರಿವಂಶ ಶ್ರವಣ, ಶತಚಂಡೀ ಯಾಗ, ಮತ್ತು ಶಿವನ ಆರಾಧನೆ.</div>
+            </div>
+
+            <ul class="concept-list">
+              <li class="concept-item"><strong>೧. ಶತಚಂಡೀ ಯಾಗ:</strong> ಅತಿ ದೊಡ್ಡ ಯಾಗ, ಅಪಾರ ಧನ-ಸಾಧನ ಬೇಕು, ಶ್ರಮಸಾಧ್ಯ ಮತ್ತು ಆಯಾಸಕರ.</li>
+              <li class="concept-item"><strong>೨. ಭಕ್ತಿಯಿಂದ ಶಿವನ ಆರಾಧನೆ:</strong> ಮಾನವನ ಭಕ್ತಿ ಚಂಚಲ, ನಿಶ್ಚಲ ಭಕ್ತಿಯಿಲ್ಲದೆ ಈಶ್ವರಾನುಗ್ರಹ ದುಸ್ಸಾಧ್ಯ.</li>
+              <li class="concept-item"><strong>೩. ಹರಿವಂಶ ಕಥಾ ಶ್ರವಣ:</strong> ಅತ್ಯಂತ <strong>ಸುಲಭೋಪಾಯ</strong>! ಕೇವಲ ಶ್ರದ್ಧೆಯಿಂದ ಕಿವಿಗೊಟ್ಟು ಕೇಳುವುದರಿಂದಲೇ ಭಗವಂತ ಒಲಿದು ಸಂತಾನ ಕರುಣಿಸುತ್ತಾನೆ.</li>
+            </ul>
+          </div>
+
+          <div class="content-box">
+            <h3 class="box-title">🛡️ ವ್ಯಾಸರ ದಿವ್ಯ ಭರವಸೆ & ದೋಷ ಪರಿಹಾರ</h3>
+            <ul class="concept-list">
+              <li class="concept-item"><strong>೧೦ ಸಲ ಶ್ರವಣದ ವ್ರತ:</strong> ಒಂದು ಸಲ ಕೇಳಿ ಫಲ ಸಿಗದಿದ್ದರೆ, ಪೂರ್ವಜನ್ಮದ ಪ್ರತಿಬಂಧಕ ದಟ್ಟವಾಗಿದೆ ಎಂದರ್ಥ. ಮತ್ತೊಂದು ಸಲ ಕೇಳಿ... ಹೀಗೆ <strong>೧೦ ಸಲ ಹರಿವಂಶ ಶ್ರವಣ ಮುಗಿಯುವುದರೊಳಗೆ ನಿಶ್ಚಯವಾಗಿಯೂ ಸಂತಾನ ಭಾಗ್ಯ ಸಿದ್ಧಿಸುತ್ತದೆ</strong> ಎಂದು ಸ್ವತಃ ವೇದವ್ಯಾಸರೇ ಗ್ಯಾರಂಟಿ ನೀಡಿದ್ದಾರೆ!</li>
+              <li class="concept-item"><strong>ವಿಶೇಷ ಇಷ್ಟಾರ್ಥಗಳು:</strong>
+                <br>• ಹೆಣ್ಣು ಮಕ್ಕಳಿದ್ದು ಗಂಡು ಮಗುವಿನ ನಿರೀಕ್ಷೆಯಲ್ಲಿದ್ದವರಿಗೆ ಸತ್ಪುತ್ರ ಜನನ.
+                <br>• ಮೊದಲ ಮಗುವಿನ ನಂತರ ವಿಳಂಬವಾದಾಗ ದ್ವಿತೀಯ ಸಂತಾನ ಲಾಭ.
+                <br>• ಸ್ತ್ರೀಯರಲ್ಲಿರುವ ರಜೋದೋಷ, ಗರ್ಭಾಶಯ ದೋಷಗಳ ಶಮನ.
+                <br>• ಹುಟ್ಟಿದ ಮಕ್ಕಳು ಅಲ್ಪಾಯುಷಿಗಳಾಗದೆ ದೀರ್ಘಾಯುಷ್ಯ ಪಡೆಯುವ ಸಂಜೀವಿನಿ ಶಕ್ತಿ.
+              </li>
+              <li class="concept-item"><strong>ಪರಮ ಫಲ:</strong> ಎಲ್ಲಕ್ಕಿಂತ ಮಿಗಿಲಾಗಿ ಸಾಕ್ಷಾತ್ ಪರಬ್ರಹ್ಮ ಶ್ರೀಕೃಷ್ಣನ ಅಖಂಡ ಪ್ರೀತಿ ಮತ್ತು ಮೋಕ್ಷ ಮಾರ್ಗ!</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="speaker-cue-box">
+          <div class="speaker-cue-header">
+            <span class="speaker-cue-title">🎙️ ಉಪನ್ಯಾಸ ನಿರ್ದೇಶನ (Upanyasa Notes & Speaker Cues)</span>
+            <span class="speaker-cue-tag">ಸಭಿಕರ ನಂಬಿಕೆ ಹೆಚ್ಚಿಸುವುದು</span>
+          </div>
+          <p class="speaker-cue-text">ಇಂದಿನ ಕಾಲದಲ್ಲಿ ಸಂತಾನ ಭಾಗ್ಯವಿಲ್ಲದೆ ಕೊರಗುವ ದಂಪತಿಗಳಿಗೆ ಈ ಫಲಶ್ರುತಿಯು ಸಂಜೀವಿನಿಯಾಗಿದೆ. "ಹಲವು ವೈದ್ಯಕೀಯ ಚಿಕಿತ್ಸೆಗಳ ಜತೆಗೆ ನಂಬಿಕೆಯಿಂದ ಹರಿವಂಶವನ್ನು ಆಲಿಸಿರಿ" ಎಂದು ಅನುಕಂಪ ಮತ್ತು ಭರವಸೆಯ ಧ್ವನಿಯಲ್ಲಿ ಪ್ರವಚನಕಾರರು ಶ್ರೋತೃಗಳಿಗೆ ಧೈರ್ಯ ತುಂಬಬೇಕು.</p>
+        </div>
+      </article>
+
+      <!-- ====================================================================
+           SLIDE 3: Janamejaya-Vaishampayana Samvada
+           ==================================================================== -->
+      <article class="slide" data-index="3" data-parva="ಪ್ರಶ್ನೋತ್ತರ" data-category="ವೈಶಂಪಾಯನ ಸಂವಾದ" data-keywords="ಜನಮೇಜಯ ವೈಶಂಪಾಯನ ಸಮಾಸೇನ ವಿಸ್ತರೇಣ ವೃಷ್ಣಿ ಅಂಧಕ ಯದು">
+        <header class="slide-header">
+          <div class="slide-meta-row">
+            <span class="slide-katha-tag">👑 ಜಿಜ್ಞಾಸೆ • ರಾಜರ್ಷಿ ಜನಮೇಜಯನ ಹಂಬಲ</span>
+            <span class="slide-number-badge">ಸ್ಲೈಡ್ ೩ / ೨೦</span>
+          </div>
+          <h2 class="slide-title">ಜನಮೇಜಯ ರಾಜನ ಜಿಜ್ಞಾಸೆ — ವೈಶಂಪಾಯನರ ಸಂವಾದ</h2>
+          <p class="slide-subtitle">ಸಂಕ್ಷಿಪ್ತದಿಂದ ವಿಸ್ತಾರದತ್ತ: ವೃಷ್ಣಿ-ಅಂಧಕ-ಯದು ವಂಶಗಳ ನಿಗೂಢ ರಹಸ್ಯ</p>
+        </header>
+
+        <div class="slide-grid">
+          <div class="content-box">
+            <h3 class="box-title">❓ ಜನಮೇಜಯ ರಾಜನ ಪ್ರಾರ್ಥನೆ</h3>
+            <div class="shloka-box">
+              <div class="shloka-source">ಹರಿವಂಶ ಪರ್ವ — ಅಧ್ಯಾಯ ೧</div>
+              <div class="shloka-sanskrit">महाभारतमाख्यानं बह्वर्थं श्रुतिविस्तरम् ।
+कथितं भवता पूर्वं विस्तरेण मया श्रुतम् ॥
+तत्र शूराः समाख्याता बहवः पुरुषर्षभाः ।
+तत्र तत्र समासेन... विस्तरेणैव मे प्रभो ॥</div>
+              <div class="shloka-kannada">ಮಹಾಭಾರತಮಾಖ್ಯಾನಂ ಬಹ್ವರ್ಥಂ ಶ್ರುತಿವಿಸ್ತರಮ್ ।
+ಕಥಿತಂ ಭವತಾ ಪೂರ್ವಂ ವಿಸ್ತರೇಣ ಮಯಾ ಶ್ರುತಮ್ ॥
+ತತ್ರ ಶೂರಾಃ ಸಮಾಖ್ಯಾತಾ ಬಹವಃ ಪುರುಷರ್ಷಭಾಃ ।
+ತತ್ರ ತತ್ರ ಸಮಾಸೇನ... ವಿಸ್ತರೇಣೈವ ಮೇ ಪ್ರಭೋ ॥</div>
+              <div class="shloka-meaning">"ಗುರುಗಳೇ, ೧೮ ಪರ್ವಗಳ ಮಹಾಭಾರತವನ್ನು ತಾವು ವಿಸ್ತಾರವಾಗಿ ಹೇಳಿದಿರಿ, ನಾನೂ ಆಲಿಸಿದೆ. ಆದರೆ ಅದರಲ್ಲಿ ಬಂದ ಶೂರರಾದ ವೃಷ್ಣಿಗಳು, ಅಂಧಕರು ಹಾಗೂ ರಾಜರ್ಷಿಗಳ ವಂಶಾವಳಿ ಅಲ್ಲಲ್ಲಿ ಸಂಕ್ಷಿಪ್ತವಾಗಿ (ಸಮಾಸೇನ) ಬಂದಿದೆ. ನನಗೆ ತೃಪ್ತಿಯಾಗಿಲ್ಲ, ಅದನ್ನು ಅಖಂಡ ವಿಸ್ತಾರವಾಗಿ (ವಿಸ್ತರೇಣ) ತಿಳಿಸಿಕೊಡಿ!"</div>
+            </div>
+          </div>
+
+          <div class="content-box">
+            <h3 class="box-title">💡 ವೈಶಂಪಾಯನರ ಉತ್ತರ & ಮುಮುಕ್ಷು ಲಕ್ಷಣ</h3>
+            <ul class="concept-list">
+              <li class="concept-item"><strong>ಜ್ಞಾನಪಿಪಾಸು:</strong> ಜನಮೇಜಯ ಪರೀಕ್ಷಿತ ರಾಜನ ಮಗ, ಅರ್ಜುನನ ಮರಿಮಗ. ಇಷ್ಟೆಲ್ಲಾ ಯುದ್ಧ-ಶಾಂತಿ-ಮೋಕ್ಷ ಕಥೆಗಳನ್ನು ಕೇಳಿದ ಮೇಲೂ ಅವನಿಗೆ ಭಗವಂತನ ಚರಿತ್ರೆ ಕೇಳಲು ಅತೃಪ್ತಿ! ಇದುವೇ ಸಾಚಾ ಅಧಿಕಾರಿಯ ಲಕ್ಷಣ.</li>
+              <li class="concept-item"><strong>ವೈಶಂಪಾಯನರ ಅನುಗ್ರಹ:</strong> ವ್ಯಾಸರ ಪ್ರಮುಖ ಶಿಷ್ಯರಾದ ವೈಶಂಪಾಯನರು ಅತ್ಯಂತ ಸಂತೋಷಗೊಂಡು, "ರಾಜನ್, ಸಮಸ್ತ ಜಗತ್ತಿನ ಕಲ್ಮಶಗಳನ್ನು ತೊಳೆಯುವ ವಂಶಾವಳಿಯನ್ನು ನಿನಗೆ ವಿಸ್ತಾರವಾಗಿ ವಿವರಿಸುತ್ತೇನೆ" ಎಂದು ಸಂಕಲ್ಪಿಸಿದರು.</li>
+              <li class="concept-item"><strong>ಮನ್ವಂತರ ಪ್ರಕ್ರಿಯೆ:</strong> ಮೊದಲು ಸ್ವಾಯಂಭುವ ಮನ್ವಂತರದ ಕೆಲವು ರಾಜರ ಕಥೆ ಹೇಳಿ, ಪ್ರಸ್ತುತ ನಡೆಯುತ್ತಿರುವ <strong>ವೈವಸ್ವತ ಮನ್ವಂತರ</strong>ದ ವಂಶಾವಳಿಯನ್ನು ವಿಸ್ತರಿಸಲು ಆರಂಭಿಸಿದರು.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="speaker-cue-box">
+          <div class="speaker-cue-header">
+            <span class="speaker-cue-title">🎙️ ಉಪನ್ಯಾಸ ನಿರ್ದೇಶನ (Upanyasa Notes & Speaker Cues)</span>
+            <span class="speaker-cue-tag">ಶ್ರೋತೃವಿನ ಗುಣ ಶ್ಲಾಘನೆ</span>
+          </div>
+          <p class="speaker-cue-text">ಜನಮೇಜಯನ ಮಾತನ್ನು ಉಲ್ಲೇಖಿಸುತ್ತಾ: "ಹರಿಕಥಾ ಶ್ರವಣದಲ್ಲಿ ನಮಗೆ ಎಂದಿಗೂ 'ಸಾಕು' ಎನಿಸಬಾರದು. ಊಟದಲ್ಲಿ ತೃಪ್ತಿಯಾಗಬೇಕು, ಆದರೆ ಜ್ಞಾನಾರ್ಜನೆಯಲ್ಲಿ ಸದಾ ಜನಮೇಜಯನಂತೆ ಹಸಿವಿರಬೇಕು" ಎಂದು ಶ್ರೋತೃಗಳಿಗೆ ಜ್ಞಾನದಾಹವನ್ನು ಹುಟ್ಟಿಸಬೇಕು.</p>
+        </div>
+      </article>
+
+      <!-- ====================================================================
+           SLIDE 4: Srishti Krama & Surya Devana Avatarana
+           ==================================================================== -->
+      <article class="slide" data-index="4" data-parva="ಸೂರ್ಯ ವಂಶ" data-category="ಸೃಷ್ಟಿ ಕ್ರಮ" data-keywords="ಸೃಷ್ಟಿ ಚತುರ್ಮುಖ ಬ್ರಹ್ಮ ಮರೀಚಿ ಕಶ್ಯಪ ಅದಿತಿ ಆದಿತ್ಯ ವಿವಸ್ವಾನ್ ಸೂರ್ಯ">
+        <header class="slide-header">
+          <div class="slide-meta-row">
+            <span class="slide-katha-tag">☀️ ಸೃಷ್ಟಿ ಪರಂಪರೆ • ಆದಿತ್ಯನ ಉದಯ</span>
+            <span class="slide-number-badge">ಸ್ಲೈಡ್ ೪ / ೨೦</span>
+          </div>
+          <h2 class="slide-title">ಸೃಷ್ಟಿ ಪರಂಪರೆ ಹಾಗೂ ಸೂರ್ಯ ದೇವನ ವಂಶಾವಳಿ</h2>
+          <p class="slide-subtitle">ಮೂಲ ನಾರಾಯಣನಿಂದ ದ್ವಾದಶ ಆದಿತ್ಯರವರೆಗೆ ದೈವೀ ಅವತರಣ ಕ್ರಮ</p>
+        </header>
+
+        <div class="slide-grid tree-layout">
+          <div class="content-box">
+            <h3 class="box-title">🌌 ಸೃಷ್ಟಿಯ ಕ್ರಮಾನುಗತ ತತ್ತ್ವ</h3>
+            <ul class="concept-list">
+              <li class="concept-item"><strong>ಮೂಲಪುರುಷ:</strong> ಸಮಸ್ತ ಸೃಷ್ಟಿಗೂ ಮೂಲ ಕಾರಣನಾದವನು ಸ್ವತಂತ್ರನಾದ ಶ್ರೀಮನ್ನಾರಾಯಣ.</li>
+              <li class="concept-item"><strong>ಚತುರ್ಮುಖ ಬ್ರಹ್ಮ:</strong> ನಾರಾಯಣನ ನಾಭಿಕಮಲದಿಂದ ಜನಿಸಿದ ಪ್ರಥಮ ಜೀವೋತ್ತಮ ಜೀವಿ.</li>
+              <li class="concept-item"><strong>ಮಾನಸ ಪುತ್ರರು:</strong> ಬ್ರಹ್ಮದೇವರಿಂದ ಸೃಷ್ಟಿಸಲ್ಪಟ್ಟ ಪ್ರಜಾಪತಿಗಳು — ಮರೀಚಿ, ಅತ್ರಿ, ಅಂಗಿರಸ, ಪುಲಸ್ತ್ಯ, ಪುಲಹ, ಕ್ರತು, ವಸಿಷ್ಠ, ದಕ್ಷ, ನಾರದ ಮುಂತಾದವರು.</li>
+              <li class="concept-item"><strong>ಕಶ್ಯಪ ಋಷಿಗಳು:</strong> ಮರೀಚಿ ಮುನಿಗಳ ತೇಜಸ್ವಿ ಪುತ್ರ ಕಶ್ಯಪ ಮಹರ್ಷಿ.</li>
+              <li class="concept-item"><strong>ದ್ವಾದಶ ಆದಿತ್ಯರು:</strong> ಕಶ್ಯಪರಿಗೆ ಅದಿತಿ ದೇವಿಯಲ್ಲಿ ಜನಿಸಿದ ೧೨ ದಿವ್ಯ ಆದಿತ್ಯರು (ವಿವಸ್ವಾನ್, ಅರ್ಯಮಾ, ಪೂಷಾ, ಧಾತಾ, ತ್ವಷ್ಟಾ, ಸವಿತಾ ಇತ್ಯಾದಿ).</li>
+              <li class="concept-item"><strong>ವಿವಸ್ವಾನ್ (ಸೂರ್ಯ):</strong> ಈ ದ್ವಾದಶ ಆದಿತ್ಯರಲ್ಲಿ ಪ್ರಮುಖನಾದವನೇ ಸೂರ್ಯನಾರಾಯಣ. ಈತನಿಂದಲೇ ವೈವಸ್ವತ ಮನ್ವಂತರದ ಸೂರ್ಯವಂಶವು ಆರಂಭವಾಗುತ್ತದೆ.</li>
+            </ul>
+          </div>
+
+          <div class="content-box">
+            <h3 class="box-title">🌳 ಸೃಷ್ಟಿ ವೃಕ್ಷ (Visual Lineage Tree)</h3>
+            <div class="tree-container">
+              <div class="tree-node root">
+                <div class="node-title">ಶ್ರೀಮನ್ನಾರಾಯಣ</div>
+                <div class="node-desc">ಮೂಲ ಪುರುಷ • ಜಗದೇಕನಾಥ</div>
+              </div>
+              <div class="tree-connector">↓</div>
+              <div class="tree-node avatar">
+                <div class="node-title">ಚತುರ್ಮುಖ ಬ್ರಹ್ಮದೇವರು</div>
+                <div class="node-desc">ನಾಭಿಕಮಲ ಸಂಭವ • ಸೃಷ್ಟಿಕರ್ತ</div>
+              </div>
+              <div class="tree-connector">↓ ಮಾನಸ ಪುತ್ರರು ↓</div>
+              <div class="tree-node branch">
+                <div class="node-title">ಮರೀಚಿ ಮಹರ್ಷಿ</div>
+                <div class="node-desc">ಸಪ್ತರ್ಷಿ ಮಂಡಲ</div>
+              </div>
+              <div class="tree-connector">↓</div>
+              <div class="tree-node branch">
+                <div class="node-title">ಕಶ್ಯಪ ಪ್ರಜಾಪತಿ + ಅದಿತಿ ದೇವಿ</div>
+                <div class="node-desc">ದೇವಮಾತೆ ಅದಿತಿ</div>
+              </div>
+              <div class="tree-connector">↓ ದ್ವಾದಶ ಆದಿತ್ಯರು ↓</div>
+              <div class="tree-node root" style="background: linear-gradient(135deg, #e65c00, #b7410e);">
+                <div class="node-title">ವಿವಸ್ವಾನ್ (ಸೂರ್ಯ ದೇವ)</div>
+                <div class="node-desc">ಸೂರ್ಯವಂಶದ ಆದಿಪುರುಷ • ಜಗಚ್ಚಕ್ಷು</div>
+                <span class="node-badge" style="background:#ffd700; color:#000;">ವೈವಸ್ವತ ಮನ್ವಂತರ ಪ್ರವರ್ತಕ</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="speaker-cue-box">
+          <div class="speaker-cue-header">
+            <span class="speaker-cue-title">🎙️ ಉಪನ್ಯಾಸ ನಿರ್ದೇಶನ (Upanyasa Notes & Speaker Cues)</span>
+            <span class="speaker-cue-tag">ವಂಶಾವಳಿಯ ಪ್ರಾಮುಖ್ಯತೆ</span>
+          </div>
+          <p class="speaker-cue-text">ವಂಶಾವಳಿಯನ್ನು ಕೇವಲ ಹೆಸರುಗಳ ಪಟ್ಟಿಯಾಗಿ ಹೇಳದೆ, ಪರಮಾತ್ಮನಿಂದ ಹೇಗೆ ಜೀವಕೋಟಿಯು ಪ್ರಕಟವಾಯಿತು ಮತ್ತು ಸೂರ್ಯದೇವನ ಸ್ಥಾನವೇನು ಎಂಬುದನ್ನು ಬ್ರಹ್ಮಾಂಡದ ಹಿನ್ನೆಲೆಯಲ್ಲಿ ವರ್ಣಿಸಿ ಸಭಿಕರಲ್ಲಿ ರೋಮಾಂಚನ ಉಂಟುಮಾಡಬೇಕು.</p>
+        </div>
+      </article>
+
+      <!-- ====================================================================
+           SLIDE 5: Surya & Samjna Devi Dampatya
+           ==================================================================== -->
+      <article class="slide" data-index="5" data-parva="ಸೂರ್ಯ ವಂಶ" data-category="ದೇವಲೀಲೆ" data-keywords="ಸೂರ್ಯ ಸಂಜ್ಞಾದೇವಿ ತ್ವಷ್ಟೃ ವಿಶ್ವಕರ್ಮ ಶ್ರಾದ್ಧದೇವ ಯಮ ಯಮುನೆ ತಾಪ">
+        <header class="slide-header">
+          <div class="slide-meta-row">
+            <span class="slide-katha-tag">🔥 ಸೂರ್ಯ ಲೀಲೆ • ಸಂಜ್ಞಾದೇವಿಯ ದಾಂಪತ್ಯ</span>
+            <span class="slide-number-badge">ಸ್ಲೈಡ್ ೫ / ೨೦</span>
+          </div>
+          <h2 class="slide-title">ಸೂರ್ಯ ಹಾಗೂ ಸಂಜ್ಞಾದೇವಿ — ಸಹಿಸಲಾಗದ ತಾಪ</h2>
+          <p class="slide-subtitle">ತ್ವಷ್ಟೃ ಪುತ್ರಿ ಸಂಜ್ಞೆ, ಮೂವರು ಮಕ್ಕಳು ಮತ್ತು ಸೂರ್ಯನ ಅಸಹನೀಯ ಉಷ್ಣಕಿರಣಗಳು</p>
+        </header>
+
+        <div class="slide-grid">
+          <div class="content-box">
+            <h3 class="box-title">👰 ಸಂಜ್ಞಾದೇವಿಯ ವಿವಾಹ & ಸಂತಾನ</h3>
+            <ul class="concept-list">
+              <li class="concept-item"><strong>ಕುಲ ಪರಿಚಯ:</strong> ದೇವಶಿಲ್ಪಿ ತ್ವಷ್ಟೃ ಪ್ರಜಾಪತಿಯ (ವಿಶ್ವಕರ್ಮ) ಮುದ್ದಿನ ಮಗಳು <strong>ಸಂಜ್ಞಾದೇವಿ</strong>. ಆಕೆಯನ್ನು ಸೂರ್ಯದೇವನಿಗೆ ಕೊಟ್ಟು ವಿವಾಹ ಮಾಡಲಾಯಿತು.</li>
+              <li class="concept-item"><strong>ಸಂಜ್ಞಾದೇವಿಯಲ್ಲಿ ಜನಿಸಿದ ೩ ಮಕ್ಕಳು:</strong>
+                <br>೧. <strong>ಶ್ರಾದ್ಧದೇವ:</strong> ಜ್ಯೇಷ್ಠ ಪುತ್ರ (ಮುಂದೆ ವೈವಸ್ವತ ಮನು ಎಂದು ಪ್ರಸಿದ್ಧನಾದವನು).
+                <br>೨. <strong>ಯಮ ಧರ್ಮರಾಜ:</strong> ಧರ್ಮಾಧರ್ಮಗಳ ವಿಚಾರಕ, ಪಿತೃಲೋಕಾಧಿಪತಿ.
+                <br>೩. <strong>ಯಮುನಾ ದೇವಿ:</strong> ಪವಿತ್ರ ಕಳಿಂದ ಕನ್ಯೆ (ನಂತರ ಯಮುನಾ ನದಿಯಾಗಿ ಅವತರಿಸಿದಳು).
+              </li>
+            </ul>
+
+            <div class="tree-container" style="margin-top:1rem; padding:0.85rem;">
+              <div class="tree-node branch" style="width:100%;">
+                <div class="node-title">ಸೂರ್ಯದೇವ + ಸಂಜ್ಞಾದೇವಿ (ತ್ವಷ್ಟೃ ಪುತ್ರಿ)</div>
+              </div>
+              <div class="tree-connector">↓ ಮೂವರು ಸಂತಾನಗಳು ↓</div>
+              <div class="tree-branches-split" style="grid-template-columns: repeat(3, 1fr);">
+                <div class="tree-node">
+                  <div class="node-title">ಶ್ರಾದ್ಧದೇವ</div>
+                  <div class="node-desc">೭ನೇ ಮನು (ವೈವಸ್ವತ)</div>
+                </div>
+                <div class="tree-node">
+                  <div class="node-title">ಯಮ</div>
+                  <div class="node-desc">ಧರ್ಮರಾಜ</div>
+                </div>
+                <div class="tree-node">
+                  <div class="node-title">ಯಮುನಾ</div>
+                  <div class="node-desc">ಪುಣ್ಯ ನದಿ</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="content-box">
+            <h3 class="box-title">☀️ ಅಸಹನೀಯ ಸೂರ್ಯ ತಾಪ & ಸಂಜ್ಞೆಯ ಸಂಕಟ</h3>
+            <ul class="concept-list">
+              <li class="concept-item"><strong>ಸೂರ್ಯನ ಪ್ರಖರತೆ:</strong> ಸೂರ್ಯನ ಶರೀರದಿಂದ ಹೊರಹೊಮ್ಮುತ್ತಿದ್ದ ಉಗ್ರವಾದ ಉಷ್ಣಕಿರಣ, ಜ್ವಾಲೆ ಮತ್ತು ಜ್ವಲಂತ ತೇಜಸ್ಸನ್ನು ಸಹಿಸಲು ಸಂಜ್ಞಾದೇವಿಗೆ ಅಸಾಧ್ಯವಾಯಿತು.</li>
+              <li class="concept-item"><strong>ಪತಿಯೆದುರು ಅಂಜಿಕೆ:</strong> ಪತಿಯ ಬಳಿ ಹೋಗಲು ಹೆದರಿಕೆ, ಮುಖ ನೋಡಲೂ ಕಣ್ಣು ಕುಕ್ಕುವಂತಹ ತೇಜಸ್ಸು. ಆತನ ಸನಿಹದಲ್ಲಿದ್ದರೆ ಸುಟ್ಟು ಭಸ್ಮವಾಗುವಂತಹ ಸಂಕಟ.</li>
+              <li class="concept-item"><strong>ಧರ್ಮಸಂಕಟ:</strong> ಗಂಡನಿಗೆ ಮುಖತಃ "ನಿನ್ನ ತಾಪ ತಾಳಲಾರೆ" ಎಂದು ಹೇಳಿ ತವರುಮನೆಗೆ ಹೋಗುವುದು ಪತಿವ್ರತಾ ಧರ್ಮಕ್ಕೆ ಕುಂದು. ಹಾಗಂತ ಸುಮ್ಮನಿದ್ದರೆ ಶರೀರ ಸುಟ್ಟುಹೋಗುವ ಭೀತಿ! ಈ ಇಕ್ಕಟ್ಟಿನಲ್ಲಿ ಸಂಜ್ಞೆ ಒಂದು ಅದ್ಭುತ ರಹಸ್ಯ ಯೋಜನೆಯನ್ನು ರೂಪಿಸಿದಳು.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="speaker-cue-box">
+          <div class="speaker-cue-header">
+            <span class="speaker-cue-title">🎙️ ಉಪನ್ಯಾಸ ನಿರ್ದೇಶನ (Upanyasa Notes & Speaker Cues)</span>
+            <span class="speaker-cue-tag">ಮಾನವೀಯ ಭಾವನೆಗಳ ಸ್ಪರ್ಶ</span>
+          </div>
+          <p class="speaker-cue-text">ದೇವತೆಗಳ ಕಥೆಯಾದರೂ ಇದರಲ್ಲಿರುವ ಗೃಹಿಣಿಯ ಸಂಕಟವನ್ನು ವರ್ಣಿಸಬೇಕು. "ದೈವಿಕ ತೇಜಸ್ಸನ್ನು ತಡೆಯಲಾರದೆ ತಾಯಿಯಾದವಳು ಮಕ್ಕಳ ಹಿತವನ್ನು ಕಾಪಾಡಲು ಎಂತಹ ರಹಸ್ಯ ಹೆಜ್ಜೆಯಿಟ್ಟಳು" ಎಂಬುದನ್ನು ಕುತೂಹಲಕಾರಿಯಾಗಿ ಮುಂದಿನ ಘಟನೆಗೆ ಕೊಂಡಿಯಾಗಿ ಬೆಸೆಯಬೇಕು.</p>
+        </div>
+      </article>
+
+      <!-- ====================================================================
+           SLIDE 6: Chhaya Devi Nirmana & Samjna's Secret Departure
+           ==================================================================== -->
+      <article class="slide" data-index="6" data-parva="ಸೂರ್ಯ ವಂಶ" data-category="ಛಾಯಾ ಸೃಷ್ಟಿ" data-keywords="ಛಾಯಾದೇವಿ ಗೊಂಬೆ ಜೀವಕಳೆ ಸಂಜ್ಞೆ ಷರತ್ತು ಜುಟ್ಟು ಗುಟ್ಟು ರಟ್ಟು">
+        <header class="slide-header">
+          <div class="slide-meta-row">
+            <span class="slide-katha-tag">👤 ಪ್ರತಿಕೃತಿ ರಹಸ್ಯ • ಛಾಯಾದೇವಿಯ ಉಗಮ</span>
+            <span class="slide-number-badge">ಸ್ಲೈಡ್ ೬ / ೨೦</span>
+          </div>
+          <h2 class="slide-title">ಛಾಯಾದೇವಿಯ ಸೃಷ್ಟಿ ಹಾಗೂ ಸಂಜ್ಞೆಯ ರಹಸ್ಯ ನಿರ್ಗಮನ</h2>
+          <p class="slide-subtitle">ನೆರಳಿನಿಂದ ಮೂಡಿದ ಜೀವಂತ ಪ್ರತಿಕೃತಿ, ವಿಧಿಸಿದ ಕಠಿಣ ಷರತ್ತು ಮತ್ತು ತವರುಮನೆ ಪ್ರವೇಶ</p>
+        </header>
+
+        <div class="slide-grid">
+          <div class="content-box">
+            <h3 class="box-title">🪞 ಛಾಯಾದೇವಿಯ ಸೃಷ್ಟಿ & ಕರ್ತವ್ಯ ನಿಯೋಜನೆ</h3>
+            <ul class="concept-list">
+              <li class="concept-item"><strong>ಗೊಂಬೆಗೆ ಜೀವಕಳೆ:</strong> ಸಂಜ್ಞಾದೇವಿಯು ತನ್ನದೇ ನೆರಳಿನಿಂದ ತದ್ರೂಪಿಯಾದ ಸುಂದರವಾದ ಗೊಂಬೆಯನ್ನು (ಪ್ರತಿಕೃತಿ) ಸೃಷ್ಟಿಸಿ, ತನ್ನ ತಪಃಶಕ್ತಿಯಿಂದ ಅದಕ್ಕೆ ಪ್ರಾಣ-ಜೀವಕಳೆಯನ್ನು ತುಂಬಿದಳು. ಆಕೆಯೇ <strong>ಛಾಯಾದೇವಿ</strong>.</li>
+              <li class="concept-item"><strong>ಸಂಜ್ಞೆಯ ಆಜ್ಞೆ:</strong> "ಛಾಯೆ, ನಾನು ಸೂರ್ಯನ ತಾಪ ತಾಳಲಾರದೆ ಸ್ವಲ್ಪ ದಿನ ತಂಪಾಗಿರಲು ತವರುಮನೆಗೆ ಹೋಗುತ್ತೇನೆ. ನೀನು ನನ್ನ ಸ್ಥಾನದಲ್ಲಿ ನಿಂತು ಪತಿಯ ಸೇವೆ ಮಾಡು ಮತ್ತು ನನ್ನ ಈ ಮೂರು ಮುದ್ದಿನ ಮಕ್ಕಳನ್ನು (ಶ್ರಾದ್ಧದೇವ, ಯಮ, ಯಮುನೆ) ಹೆತ್ತ ತಾಯಿಯಂತೆ ಪಾಲಿಸು. ಸೂರ್ಯನಿಗೆ ಈ ಭೇದ ತಿಳಿಯಬಾರದು!"</li>
+            </ul>
+          </div>
+
+          <div class="content-box">
+            <h3 class="box-title">⚠️ ಛಾಯಾದೇವಿಯ ಕಠಿಣ ಷರತ್ತು</h3>
+            <div class="shloka-box" style="margin-top:0;">
+              <div class="shloka-source">ಛಾಯಾದೇವಿಯ ನಿಬಂಧನೆ</div>
+              <div class="shloka-kannada">"ಸೂರ್ಯನು ಎಂದಾದರೂ ಸಿಟ್ಟಿನಿಂದ ನನ್ನ ಮೇಲೆ ಕೈಮಾಡಿದರೆ, ಜುಟ್ಟು ಹಿಡಿದರೆ, ಅಂದು ನಾನು ಸತ್ಯವನ್ನು ಬಯಲು ಮಾಡಿ ಹೊರಟುಬಿಡುತ್ತೇನೆ!"</div>
+              <div class="shloka-meaning">ಛಾಯಾದೇವಿಯ ಸ್ಪಷ್ಟ ಎಚ್ಚರಿಕೆ: ತನ್ನ ಸ್ವಾಭಿಮಾನಕ್ಕೆ ಧಕ್ಕೆ ಬಂದರೆ, ಪತಿ ಕೈಮಾಡಿದರೆ ರಹಸ್ಯವನ್ನು ಮುಚ್ಚಿಡಲು ಸಾಧ್ಯವಿಲ್ಲ.</div>
+            </div>
+            <ul class="concept-list">
+              <li class="concept-item">ಸಂಜ್ಞಾದೇವಿಯು ಈ ಷರತ್ತಿಗೆ ಒಪ್ಪಿ, ಯಾರಿಗೂ ತಿಳಿಯದಂತೆ ಸೂರ್ಯಲೋಕವನ್ನು ತ್ಯಜಿಸಿ ತಂದೆ ತ್ವಷ್ಟೃವಿನ ಆಶ್ರಮದ ಕಡೆಗೆ ಹೆಜ್ಜೆಯಿಟ್ಟಳು.</li>
+              <li class="concept-item">ಸೂರ್ಯದೇವನಿಗೆ ಪತ್ನಿಯ ಈ ಅದ್ಭುತ ರಹಸ್ಯ ತಿಳಿಯಲೇ ಇಲ್ಲ; ಆಕೆಯೇ ನಿಜವಾದ ಸಂಜ್ಞೆ ಎಂದು ಭಾವಿಸಿ ದಾಂಪತ್ಯವನ್ನು ಮುಂದುವರಿಸಿದನು.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="speaker-cue-box">
+          <div class="speaker-cue-header">
+            <span class="speaker-cue-title">🎙️ ಉಪನ್ಯಾಸ ನಿರ್ದೇಶನ (Upanyasa Notes & Speaker Cues)</span>
+            <span class="speaker-cue-tag">ನಾಟಕೀಯ ತಿರುವು</span>
+          </div>
+          <p class="speaker-cue-text">ಈ ಸನ್ನಿವೇಶವನ್ನು ಪ್ರವಚನದಲ್ಲಿ ವಿವರಿಸುವಾಗ, ಛಾಯಾದೇವಿ ವಿಧಿಸಿದ "ಜುಟ್ಟು ಹಿಡಿದರೆ ಗುಟ್ಟು ರಟ್ಟು" ಎಂಬ ಶರತ್ತನ್ನು ವಿಶೇಷವಾಗಿ ಪ್ರಸ್ತಾಪಿಸಿ. ಇದು ಪುರಾಣ ಕಥೆಯಲ್ಲಿ ಬರುವ ಅದ್ಭುತ ನಾಟಕೀಯ ಕಾವ್ಯಮಯ ತಿರುವು.</p>
+        </div>
+      </article>
+
+      <!-- ====================================================================
+           SLIDE 7: Chhaya's Offspring & The Unfolding of Partiality
+           ==================================================================== -->
+      <article class="slide" data-index="7" data-parva="ಸೂರ್ಯ ವಂಶ" data-category="ಪಕ್ಷಪಾತ & ಸತ್ಯೋದಯ" data-keywords="ಛಾಯಾ ಸಂತಾನ ಸಾವರ್ಣಿ ಶನೈಶ್ಚರ ಶನಿ ತಪತೀ ಪಕ್ಷಪಾತ ಯಮ ಕಲಹ ಸತ್ಯ">
+        <header class="slide-header">
+          <div class="slide-meta-row">
+            <span class="slide-katha-tag">⚖️ ಧರ್ಮ-ಅಧರ್ಮ ಸಂಘರ್ಷ • ಸತ್ಯ ಅನಾವರಣ</span>
+            <span class="slide-number-badge">ಸ್ಲೈಡ್ ೭ / ೨೦</span>
+          </div>
+          <h2 class="slide-title">ಛಾಯಾದೇವಿಯ ಸಂತಾನ, ಪಕ್ಷಪಾತ ಹಾಗೂ ಗುಟ್ಟು ರಟ್ಟಾಗುವುದು</h2>
+          <p class="slide-subtitle">ಶನಿ ಮಹಾತ್ಮನ ಜನನ, ತಾಯಿಯ ಮಲತಾಯಿ ಧೋರಣೆ, ಯಮನ ಧರ್ಮಯುದ್ಧ ಮತ್ತು ಸತ್ಯ ಸ್ಫೋಟ</p>
+        </header>
+
+        <div class="slide-grid">
+          <div class="content-box">
+            <h3 class="box-title">🪐 ಛಾಯಾದೇವಿಯ ಮೂವರು ಮಕ್ಕಳು</h3>
+            <ul class="concept-list">
+              <li class="concept-item">ಸೂರ್ಯನೊಂದಿಗೆ ದಾಂಪತ್ಯ ನಡೆಸಿದ ಛಾಯಾದೇವಿಯಲ್ಲಿ ಮೂರು ತೇಜಸ್ವಿ ಮಕ್ಕಳು ಜನಿಸಿದರು:
+                <br>೧. <strong>ಸಾವರ್ಣಿ:</strong> ಮುಂದೆ ಬರಲಿರುವ ೮ನೇ ಮನ್ವಂತರದ ಅಧಿಪತಿಯಾದ ಮನು.
+                <br>೨. <strong>ಶನೈಶ್ಚರ:</strong> ಕರ್ಮಫಲ ಪ್ರದಾತ, ಗ್ರಹಮಂಡಲದ ಪ್ರಭಾವಶಾಲಿ ಶನಿ ಮಹಾತ್ಮ.
+                <br>೩. <strong>ತಪತೀ:</strong> ಪುಣ್ಯತಮೆಯಾದ ಕನ್ಯೆ, ನಂತರ ತಪತೀ ನದಿಯಾಗಿ ಹರಿದವಳು.
+              </li>
+            </ul>
+
+            <div class="tree-container" style="margin-top:1rem; padding:0.75rem;">
+              <div class="tree-node branch" style="width:100%;">
+                <div class="node-title">ಸೂರ್ಯದೇವ + ಛಾಯಾದೇವಿ (ಪ್ರತಿಕೃತಿ)</div>
+              </div>
+              <div class="tree-connector">↓ ಮೂವರು ಸಂತಾನಗಳು ↓</div>
+              <div class="tree-branches-split" style="grid-template-columns: repeat(3, 1fr);">
+                <div class="tree-node">
+                  <div class="node-title">ಸಾವರ್ಣಿ</div>
+                  <div class="node-desc">೮ನೇ ಮನು</div>
+                </div>
+                <div class="tree-node">
+                  <div class="node-title">ಶನೈಶ್ಚರ (ಶನಿ)</div>
+                  <div class="node-desc">ನ್ಯಾಯಾಧಿಪತಿ ಗ್ರಹ</div>
+                </div>
+                <div class="tree-node">
+                  <div class="node-title">ತಪತೀ</div>
+                  <div class="node-desc">ಪವಿತ್ರ ನದಿ</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="content-box">
+            <h3 class="box-title">⚡ ಪಕ್ಷಪಾತ & ಗುಟ್ಟು ರಟ್ಟಾದ ಘಟನೆ</h3>
+            <ul class="concept-list">
+              <li class="concept-item"><strong>ಮಲತಾಯಿ ಧೋರಣೆ:</strong> ಛಾಯಾದೇವಿಯು ತನ್ನ ಹೆತ್ತ ಮಕ್ಕಳಾದ ಸಾವರ್ಣಿ, ಶನಿ, ತಪತೀ ಮೇಲೆ ಅತಿಯಾದ ವಾತ್ಸಲ್ಯ ತೋರುತ್ತಾ, ಸಂಜ್ಞೆಯ ಮಕ್ಕಳಾದ ಶ್ರಾದ್ಧದೇವ, ಯಮ, ಯಮುನೆಯರನ್ನು ಕಡೆಗಣಿಸಿ ಅನ್ಯಾಯ ಮಾಡಿದಳು.</li>
+              <li class="concept-item"><strong>ಯಮನ ನ್ಯಾಯ ಪ್ರತಿಭಟನೆ:</strong> ಜ್ಯೇಷ್ಠನಾದ ಯಮಧರ್ಮನು ಇದನ್ನು ಸಹಿಸದೆ ತಾಯಿಯನ್ನು ಪ್ರಶ್ನಿಸಿದನು. ವಾಗ್ವಾದ ತಾರಕಕ್ಕೇರಿತು.</li>
+              <li class="concept-item"><strong>ಸೂರ್ಯನ ಕ್ರೋಧ:</strong> ಮಕ್ಕಳ ಜಗಳದಲ್ಲಿ ಸೂರ್ಯ ಮಧ್ಯಪ್ರವೇಶಿಸಿ, ಹಿರಿಯ ಮಗ ಯಮನ ಮೇಲೆಯೇ ರೇಗುತ್ತಿದ್ದ ಪತ್ನಿಯ ಮೇಲೆ ಸಿಟ್ಟುಗೊಂಡು, ಆಕೆಯ <strong>ತಲೆಗೂದಲನ್ನು (ಜುಟ್ಟು) ಹಿಡಿದು ಜಗ್ಗಾಡಿದನು!</strong></li>
+              <li class="concept-item"><strong>ಸ್ಫೋಟಕ ಸತ್ಯ:</strong> ತನ್ನ ಷರತ್ತು ಭಂಗವಾದ ತಕ್ಷಣ ಛಾಯಾದೇವಿ ಕಿರುಚಿದಳು: <em>"ನಾನು ಸಂಜ್ಞೆಯಲ್ಲ, ಛಾಯೆ! ನಿಮ್ಮ ಪ್ರಖರ ತಾಪ ತಾಳಲಾರದೆ ಸಂಜ್ಞಾದೇವಿ ನನ್ನನ್ನು ಸೃಷ್ಟಿಸಿ ತವರುಮನೆಗೆ ಹೋಗಿದ್ದಾಳೆ!"</em> ಸೂರ್ಯನು ದಿಗ್ಭ್ರಮೆಗೊಂಡನು.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="speaker-cue-box">
+          <div class="speaker-cue-header">
+            <span class="speaker-cue-title">🎙️ ಉಪನ್ಯಾಸ ನಿರ್ದೇಶನ (Upanyasa Notes & Speaker Cues)</span>
+            <span class="speaker-cue-tag">ಮಾನಸಿಕ ವಿಶ್ಲೇಷಣೆ & ತಾತ್ಪರ್ಯ</span>
+          </div>
+          <p class="speaker-cue-text">ಯಮನು ಧರ್ಮರಾಜನೇಕಾದ? ಬಾಲ್ಯದಲ್ಲೇ ಮಲತಾಯಿಯ ಪಕ್ಷಪಾತವನ್ನು ಕಂಡು ಧರ್ಮದ ಪರವಾಗಿ ನಿಂತಿದ್ದರಿಂದ ಆತನಿಗೆ ಪರಮಾತ್ಮನು ಜಗತ್ತಿನ ಧರ್ಮ-ನ್ಯಾಯಾಧೀಶನ ಸ್ಥಾನವನ್ನು ನೀಡಿದನು ಎಂಬ ರಹಸ್ಯವನ್ನು ಸಭಿಕರಿಗೆ ತಿಳಿಸಬೇಕು.</p>
+        </div>
+      </article>
+
+      <!-- ====================================================================
+           SLIDE 8: Surya's Shanta-Roopa & Vishvakarma's Rejection of Samjna
+           ==================================================================== -->
+      <article class="slide" data-index="8" data-parva="ಸೂರ್ಯ ವಂಶ" data-category="ಸೌಮ್ಯರೂಪ & ಧರ್ಮ" data-keywords="ವಿಶ್ವಕರ್ಮ ಸಾಣೆ ತೇಜಸ್ಸು ಸೌಮ್ಯರೂಪ ಸಂಜ್ಞೆ ತವರುಮನೆ ಸಕೃತ್ ಕನ್ಯಾ ಪ್ರದೀಯತೇ ಧರ್ಮ">
+        <header class="slide-header">
+          <div class="slide-meta-row">
+            <span class="slide-katha-tag">🔨 ವಿಶ್ವಕರ್ಮ ಶಿಲ್ಪ • ಸೂರ್ಯನ ಸೌಮ್ಯರೂಪ</span>
+            <span class="slide-number-badge">ಸ್ಲೈಡ್ ೮ / ೨೦</span>
+          </div>
+          <h2 class="slide-title">ಸೂರ್ಯನು ಸೌಮ್ಯರೂಪ ತಾಳುವುದು ಹಾಗೂ ಸಂಜ್ಞೆಯ ಅನ್ವೇಷಣೆ</h2>
+          <p class="slide-subtitle">ಸೂರ್ಯಬಿಂಬಕ್ಕೆ ಸಾಣೆ, ಮಾವನ ಮನೆಗೆ ಪಯಣ ಮತ್ತು ಸ್ತ್ರೀಧರ್ಮದ ಅಚಲ ನಿಲುವು</p>
+        </header>
+
+        <div class="slide-grid">
+          <div class="content-box">
+            <h3 class="box-title">✨ ಸೂರ್ಯಬಿಂಬ ಸಾಣೆಹಿಡಿದ ಚರಿತ್ರೆ</h3>
+            <ul class="concept-list">
+              <li class="concept-item"><strong>ಪಶ್ಚಾತ್ತಾಪ:</strong> ಸೂರ್ಯನಿಗೆ ತನ್ನ ತಪ್ಪಿನ ಅರಿವಾಯಿತು. ನನ್ನ ಉಗ್ರ ತಾಪದಿಂದಲೇ ಪತ್ನಿ ನನ್ನನ್ನು ಬಿಟ್ಟು ಹೋಗಬೇಕಾಯಿತು ಎಂದು ನೊಂದನು.</li>
+              <li class="concept-item"><strong>ವಿಶ್ವಕರ್ಮನ ನೆರವು:</strong> ಮಾವನಾದ ದೇವಶಿಲ್ಪಿ ವಿಶ್ವಕರ್ಮನ ಬಳಿ ತೆರಳಿ ತನ್ನ ತಾಪವನ್ನು ಕಡಿಮೆ ಮಾಡಲು ಪ್ರಾರ್ಥಿಸಿದನು.</li>
+              <li class="concept-item"><strong>ಸೂರ್ಯಬಿಂಬ ಸಾಣೆ:</strong> ವಿಶ್ವಕರ್ಮನು ಸೂರ್ಯಮಂಡಲವನ್ನು ತನ್ನ ಯಂತ್ರಕ್ಕೆ ಕಟ್ಟಿ ಸಾಣೆಹಿಡಿದು, ಆತನ ತೀಕ್ಷ್ಣತೆಯನ್ನು ಕಡಿಮೆ ಮಾಡಿ, ಜಗತ್ತಿಗೆ ಮುದನೀಡುವ <strong>ಸೌಮ್ಯರೂಪಿ, ಮನೋಹರ ರೂಪ</strong>ವನ್ನಾಗಿ ಪರಿವರ್ತಿಸಿದನು.</li>
+            </ul>
+          </div>
+
+          <div class="content-box">
+            <h3 class="box-title">🚪 ತಂದೆ ತ್ವಷ್ಟೃವಿನ ಧರ್ಮ ನಿಷ್ಠೆ — ಸಂಜ್ಞೆಗೆ ತಿರಸ್ಕಾರ</h3>
+            <div class="shloka-box">
+              <div class="shloka-source">ಧರ್ಮಶಾಸ್ತ್ರ ಪ್ರಮಾಣ • ತಂದೆಯ ಉಪದೇಶ</div>
+              <div class="shloka-sanskrit">सकृत् कन्या प्रदीयते ।
+पिता रक्षति कौमारे भर्ता रक्षति यौवने ।
+पुत्रो रक्षति वार्धक्ये न स्त्री स्वातन्त्र्यमर्हति ॥</div>
+              <div class="shloka-kannada">ಸಕೃತ್ ಕನ್ಯಾ ಪ್ರದೀಯತೇ ।
+ಪಿತಾ ರಕ್ಷತಿ ಕೌಮಾರೇ ಭರ್ತಾ ರಕ್ಷತಿ ಯೌವನೇ ।
+ಪುತ್ರೋ ರಕ್ಷತಿ ವಾರ್ಧಕ್ಯೇ ನ ಸ್ತ್ರೀ ಸ್ವಾತಂತ್ರ್ಯಮರ್ಹತಿ ॥</div>
+              <div class="shloka-meaning">ಕನ್ಯಾದಾನವನ್ನು ಒಮ್ಮೆ ಮಾಡಿದ ಮೇಲೆ ಆಕೆ ಪತಿಯ ಮನೆಯವಳು. ಬಾಲ್ಯದಲ್ಲಿ ತಂದೆ, ಯೌವನದಲ್ಲಿ ಗಂಡ, ವೃದ್ಧಾಪ್ಯದಲ್ಲಿ ಮಗ ರಕ್ಷಿಸಬೇಕು; ಸ್ತ್ರೀಯು ಪತಿಯನ್ನು ತೊರೆದು ಒಂಟಿಯಾಗಿ ಜೀವಿಸುವುದು ಧರ್ಮವಲ್ಲ!</div>
+            </div>
+            <ul class="concept-list">
+              <li class="concept-item">ಸೂರ್ಯನು ಪತ್ನಿಯನ್ನು ಕರೆತರಲು ಮಾವನ ಮನೆಗೆ ಹೋದಾಗ, ಸಂಜ್ಞಾದೇವಿ ಅಲ್ಲಿ ಇರಲೇ ಇಲ್ಲ! ಗಂಡನಿಗೆ ಹೇಳದೆ ಬಂದ ಮಗಳಿಗೆ ತಂದೆ ತ್ವಷ್ಟೃ ಆಶ್ರಯ ನೀಡದೆ, "ಗಂಡನ ಬಳಿಯೇ ಮರಳು" ಎಂದು ಕಳುಹಿಸಿಬಿಟ್ಟಿದ್ದನು.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="speaker-cue-box">
+          <div class="speaker-cue-header">
+            <span class="speaker-cue-title">🎙️ ಉಪನ್ಯಾಸ ನಿರ್ದೇಶನ (Upanyasa Notes & Speaker Cues)</span>
+            <span class="speaker-cue-tag">ಸನಾತನ ಸಂಸ್ಕಾರದ ಮಹತ್ತ್ವ</span>
+          </div>
+          <p class="speaker-cue-text">ತ್ವಷ್ಟೃವಿನ ಈ ಧರ್ಮಶಾಸ್ತ್ರೋಕ್ತ ನಿಲುವನ್ನು ಇಂದಿನ ಕೌಟುಂಬಿಕ ವ್ಯವಸ್ಥೆಗೆ ಹೋಲಿಸಿ ಪ್ರವಚನಕಾರರು ವಿವರಿಸಬೇಕು. ಸಣ್ಣಪುಟ್ಟ ಭಿನ್ನಾಭಿಪ್ರಾಯಗಳಿಗೆ ಹೆಣ್ಣುಮಕ್ಕಳು ಗಂಡನ ಮನೆ ಬಿಟ್ಟು ಬಂದರೆ ತಂದೆ-ತಾಯಿಗಳು ಹೇಗೆ ಬುದ್ಧಿವಾದ ಹೇಳಿ ಸಂಸಾರ ಉಳಿಸಬೇಕೆಂಬುದಕ್ಕೆ ಈ ಪೌರಾಣಿಕ ಸನ್ನಿವೇಶವೇ ಸಾಕ್ಷಿ!</p>
+        </div>
+      </article>
+
+      <!-- ====================================================================
+           SLIDE 9: Uttarakuru Leela & Ashvini Kumarara Janana
+           ==================================================================== -->
+      <article class="slide" data-index="9" data-parva="ಸೂರ್ಯ ವಂಶ" data-category="ಅಶ್ವಿನೀ ಜನನ" data-keywords="ಉತ್ತರಕುರು ಬಡಬಾ ಕುದುರೆ ಅಶ್ವಿನಿ ಕುಮಾರರು ನಾಸತ್ಯ ದಸ್ರ ದೇವವೈದ್ಯರು ೮ ಮಕ್ಕಳು">
+        <header class="slide-header">
+          <div class="slide-meta-row">
+            <span class="slide-katha-tag">🐎 ಉತ್ತರಕುರು ಲೀಲೆ • ದೇವವೈದ್ಯರ ಜನನ</span>
+            <span class="slide-number-badge">ಸ್ಲೈಡ್ ೯ / ೨೦</span>
+          </div>
+          <h2 class="slide-title">ಉತ್ತರಕುರು ಖಂಡದಲ್ಲಿ ಅಶ್ವಿನೀ ಕುಮಾರರ ಜನನ</h2>
+          <p class="slide-subtitle">ಬಡಬಾ (ಹೆಣ್ಣು ಕುದುರೆ) ರೂಪದ ಸಂಜ್ಞೆ, ಸೂರ್ಯನ ಅಶ್ವರೂಪ ಮತ್ತು ಸೂರ್ಯನ ಸಮಗ್ರ ಸಂತಾನ</p>
+        </header>
+
+        <div class="slide-grid tree-layout">
+          <div class="content-box">
+            <h3 class="box-title">🌾 ಬಡಬಾ ರೂಪ & ಅಶ್ವಿನಿ ಜನನ ಲೀಲೆ</h3>
+            <ul class="concept-list">
+              <li class="concept-item"><strong>ಒಂಟಿತನದ ಭಯ:</strong> ತಂದೆಯ ಮನೆಯಲ್ಲೂ ಆಶ್ರಯ ಸಿಗದೆ, ಒಂಟಿಯಾಗಿ ಸಮಾಜದಲ್ಲಿ ತಿರುಗಲು ಹೆದರಿದ ಸಂಜ್ಞಾದೇವಿಯು <strong>ಬಡಬಾ (ಹೆಣ್ಣು ಕುದುರೆ)</strong> ರೂಪ ಧರಿಸಿದಳು.</li>
+              <li class="concept-item"><strong>ಉತ್ತರಕುರು ಖಂಡ:</strong> ಹಿಮಾಲಯದ ಆಚೆಗಿನ ಪವಿತ್ರ ಹಸಿರು ಹುಲ್ಲುಗಾವಲಾದ ಉತ್ತರಕುರು ಖಂಡದಲ್ಲಿ ಹುಲ್ಲು ಮೇಯುತ್ತಾ ತಪಸ್ಸನ್ನಾಚರಿಸುತ್ತಿದ್ದಳು.</li>
+              <li class="concept-item"><strong>ಸೂರ್ಯನ ಹುಡುಕಾಟ:</strong> ಭೂಮಂಡಲವೆಲ್ಲಾ ಹುಡುಕಿದ ಸೂರ್ಯದೇವನು ದಿವ್ಯದೃಷ್ಟಿಯಿಂದ ಆಕೆಯನ್ನು ಗುರುತಿಸಿ, ತಾನೂ ಸುಂದರ <strong>ಗಂಡು ಕುದುರೆಯ ರೂಪ</strong> ತಾಳಿ ಆಕೆಯ ಬಳಿಗೆ ಬಂದನು.</li>
+              <li class="concept-item"><strong>ಅಶ್ವಿನೀ ಕುಮಾರರ ಅವತಾರ:</strong> ಅವರ ದೈವಿಕ ಸಂಯೋಗದಿಂದ, ಕುದುರೆಯ ಮೂಗಿನ ಹೊಳ್ಳೆಗಳಿಂದ (ನಾಸಿಕದಿಂದ) ದೇವವೈದ್ಯರಾದ ಅವಳಿ <strong>ಅಶ್ವಿನೀ ಕುಮಾರರು</strong> (ನಾಸತ್ಯ ಮತ್ತು ದಸ್ರ) ಜನಿಸಿದರು!</li>
+            </ul>
+          </div>
+
+          <div class="content-box">
+            <h3 class="box-title">👑 ಸೂರ್ಯದೇವನ ಒಟ್ಟು ೮ ಮಕ್ಕಳ ಸಮಗ್ರ ಪಟ್ಟಿ</h3>
+            <div class="tree-container" style="padding:1rem;">
+              <div class="tree-node root" style="width:100%;">
+                <div class="node-title">ಸೂರ್ಯದೇವನ ಅಷ್ಟ ಸಂತಾನ (೮ ಮಕ್ಕಳು)</div>
+                <div class="node-desc">ವೈವಸ್ವತ ಮನ್ವಂತರದ ದೇವ-ಮಾನವ ಕುಲಗಳು</div>
+              </div>
+              <div class="tree-connector">↓ ಮೂರು ಮೂಲಗಳಿಂದ ↓</div>
+              <div class="tree-branches-split" style="grid-template-columns: 1fr;">
+                <div class="tree-node branch">
+                  <div class="node-title">೧. ಸಂಜ್ಞಾದೇವಿಯಲ್ಲಿ (೩ ಮಕ್ಕಳು)</div>
+                  <div class="node-desc">• ಶ್ರಾದ್ಧದೇವ (ಮನು) • ಯಮ ಧರ್ಮರಾಜ • ಯಮುನಾ ನದಿ</div>
+                </div>
+                <div class="tree-node branch">
+                  <div class="node-title">೨. ಛಾಯಾದೇವಿಯಲ್ಲಿ (೩ ಮಕ್ಕಳು)</div>
+                  <div class="node-desc">• ಸಾವರ್ಣಿ (೮ನೇ ಮನು) • ಶನೈಶ್ಚರ (ಶನಿ) • ತಪತೀ ನದಿ</div>
+                </div>
+                <div class="tree-node branch">
+                  <div class="node-title">೩. ಅಶ್ವರೂಪ ಸಂಯೋಗದಲ್ಲಿ (೨ ಮಕ್ಕಳು)</div>
+                  <div class="node-desc">• ನಾಸತ್ಯ • ದಸ್ರ (ದೇವಲೋಕದ ಮಹಾವೈದ್ಯರಾದ ಅಶ್ವಿನೀ ಕುಮಾರರು)</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="speaker-cue-box">
+          <div class="speaker-cue-header">
+            <span class="speaker-cue-title">🎙️ ಉಪನ್ಯಾಸ ನಿರ್ದೇಶನ (Upanyasa Notes & Speaker Cues)</span>
+            <span class="speaker-cue-tag">ಸೌಂದರ್ಯ & ದಿವ್ಯತೆ</span>
+          </div>
+          <p class="speaker-cue-text">ಸೂರ್ಯ-ಸಂಜ್ಞೆಯರ ಈ ಪುನರ್ಮಿಲನದ ಕಥೆಯನ್ನು ಅತ್ಯಂತ ಪವಿತ್ರವಾಗಿ, ದೈವೀ ಲೀಲೆಯಾಗಿ ವರ್ಣಿಸಬೇಕು. "ಅಶ್ವಿನೀ ಕುಮಾರರು ದೇವತೆಗಳ ರೋಗ ನಿವಾರಕರಾಗಿ ಹೇಗೆ ಅವತರಿಸಿದರು" ಎಂಬುದನ್ನು ತಿಳಿಸಿ ಸೂರ್ಯ ಚರಿತ್ರೆಯನ್ನು ಮುಕ್ತಾಯಗೊಳಿಸಿ, ಶ್ರಾದ್ಧದೇವನ ಕಡೆಗೆ ಸಭಿಕರ ಗಮನ ಸೆಳೆಯಬೇಕು.</p>
+        </div>
+      </article>
+
+      <!-- ====================================================================
+           SLIDE 10: Shraddhadeva & Pitru Tattva Jijnasa
+           ==================================================================== -->
+      <article class="slide" data-index="10" data-parva="ಪಿತೃ ಕಲ್ಪ" data-category="ಶ್ರಾದ್ಧ ರಹಸ್ಯ" data-keywords="ಶ್ರಾದ್ಧದೇವ ಪಿತೃ ತತ್ತ್ವ ೫ ಪಿತೃಗಳು ಜನಕ ಉಪನಯನ ಅನ್ನದಾತ ಗುರು ಜ್ಯೇಷ್ಠಭ್ರಾತೃ">
+        <header class="slide-header">
+          <div class="slide-meta-row">
+            <span class="slide-katha-tag">🌾 ಪಿತೃಕಲ್ಪ ರಹಸ್ಯ • ಶ್ರಾದ್ಧ ತತ್ತ್ವ ದರ್ಶನ</span>
+            <span class="slide-number-badge">ಸ್ಲೈಡ್ ೧೦ / ೨೦</span>
+          </div>
+          <h2 class="slide-title">ಶ್ರಾದ್ಧದೇವ ಹಾಗೂ ಪಂಚ ಪಿತೃಗಳ ತತ್ತ್ವ ರಹಸ್ಯ</h2>
+          <p class="slide-subtitle">ವೈವಸ್ವತ ಮನುಗೆ ಶ್ರಾದ್ಧದೇವನೆಂಬ ಹೆಸರು ಏಕೆ? ಶಾಸ್ತ್ರೋಕ್ತ ಪಂಚ ಪಿತೃಗಳು ಯಾರು?</p>
+        </header>
+
+        <div class="slide-grid">
+          <div class="content-box">
+            <h3 class="box-title">❓ ಜನಮೇಜಯ ರಾಜನ ಗಂಭೀರ ಪ್ರಶ್ನೆ</h3>
+            <ul class="concept-list">
+              <li class="concept-item"><strong>ಪ್ರಶ್ನೆ:</strong> "ವೈವಸ್ವತ ಮನ್ವಂತರದ ಅಧಿಪತಿಯಾದ ಮನುಗೆ <strong>'ಶ್ರಾದ್ಧದೇವ'</strong> ಎಂದು ಏಕೆ ಹೆಸರು ಬಂತು? ಶ್ರಾದ್ಧಕ್ಕೂ ಪಿತೃದೇವತೆಗಳಿಗೂ ಏನು ಸಂಬಂಧ? ಪಿತೃದೇವತೆಗಳು ಯಾರು?"</li>
+              <li class="concept-item"><strong>ಮಹತ್ತ್ವ:</strong> ಜಗತ್ತಿನಲ್ಲಿ ಪ್ರತಿಯೊಬ್ಬ ಮನುಷ್ಯನೂ ಮಾಡಬೇಕಾದ ನಿತ್ಯ-ನೈಮಿತ್ತಿಕ ಕರ್ಮವಾದ 'ಶ್ರಾದ್ಧ'ದ ಗೂಢ ರಹಸ್ಯವನ್ನು ಈ ಪ್ರಸಂಗವು ತೆರೆದಿಡುತ್ತದೆ.</li>
+            </ul>
+          </div>
+
+          <div class="content-box">
+            <h3 class="box-title">✋ ಶಾಸ್ತ್ರೋಕ್ತ ೫ ಬಗೆಯ ಪಿತೃಗಳು (Who is a Pitru?)</h3>
+            <div class="shloka-box" style="margin-top:0;">
+              <div class="shloka-source">ಧರ್ಮಶಾಸ್ತ್ರ ವಾಕ್ಯ</div>
+              <div class="shloka-sanskrit">पञ्चैते पितरः स्मृताः ।
+जनकोपनयनान्नदातृज्ञानगुरुज्येष्ठभ्रातरः ॥</div>
+              <div class="shloka-kannada">ಪಂಚೈತೇ ಪಿತರಃ ಸ್ಮೃತಾಃ ।
+೧. ಜನ್ಮ ಕೊಟ್ಟ ತಂದೆ (ಜನಕ)
+೨. ಉಪನಯನ ಸಂಸ್ಕಾರ ಮಾಡಿದವನು
+೩. ಅನ್ನ ಹಾಕಿ ಪ್ರಾಣ ಉಳಿಸಿದವನು (ಅನ್ನದಾತ)
+೪. ಆಧ್ಯಾತ್ಮಿಕ ಜ್ಞಾನೋಪದೇಶ ಮಾಡಿದ ಗುರು (ಜ್ಞಾನಗುರು)
+೫. ಸಂರಕ್ಷಿಸುವ ಹಿರಿಯಣ್ಣ (ಜ್ಯೇಷ್ಠ ಭ್ರಾತೃ)</div>
+              <div class="shloka-meaning">ಕೇವಲ ಶರೀರವನ್ನು ನೀಡಿದವನು ಮಾತ್ರವೇ ಪಿತೃವಲ್ಲ; ಜ್ಞಾನ, ಸಂಸ್ಕಾರ, ಅನ್ನ ಮತ್ತು ರಕ್ಷಣೆ ನೀಡಿದವರೆಲ್ಲರೂ ತಂದೆಗೆ ಸಮಾನರೆಂದು ಧರ್ಮಶಾಸ್ತ್ರವು ನಿರ್ಣಯಿಸಿದೆ.</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="speaker-cue-box">
+          <div class="speaker-cue-header">
+            <span class="speaker-cue-title">🎙️ ಉಪನ್ಯಾಸ ನಿರ್ದೇಶನ (Upanyasa Notes & Speaker Cues)</span>
+            <span class="speaker-cue-tag">ಜ್ಞಾನದ ಹಿರಿಮೆ</span>
+          </div>
+          <p class="speaker-cue-text">ಈ ೫ ಪಿತೃಗಳ ಪರಿಕಲ್ಪನೆಯನ್ನು ವಿವರಿಸುವಾಗ: "ಜನಕನಿಗಿಂತಲೂ ಜ್ಞಾನ ಕೊಟ್ಟ ಗುರುವು ಏಕೆ ಹಿರಿಯನಾಗುತ್ತಾನೆ?" ಎಂಬುದನ್ನು ಮುಂದಿನ ಪಿತೃದೇವತೆಗಳ ಉಗಮ ಕಥೆಯೊಂದಿಗೆ ಬೆಸೆಯಬೇಕು. ಇದು ಆಧುನಿಕ ಸಮಾಜಕ್ಕೆ ಕೃತಜ್ಞತಾ ಧರ್ಮವನ್ನು ಕಲಿಸುವ ಮಹಾನ್ ಪಾಠ.</p>
+        </div>
+      </article>
+
+      <!-- ====================================================================
+           SLIDE 11: Pitru Devatana Udbhava Katha
+           ==================================================================== -->
+      <article class="slide" data-index="11" data-parva="ಪಿತೃ ಕಲ್ಪ" data-category="ದೈವೀ ಕೊರಿಯರ್" data-keywords="ಪಿತೃದೇವತೆಗಳು ಬ್ರಹ್ಮ ಶಾಪ ಜ್ಞಾನೋಪದೇಶ ಪುತ್ರಕಾಃ ದೈವೀ ಕೊರಿಯರ್ ಅಮೃತ ತೃಪ್ತಿ">
+        <header class="slide-header">
+          <div class="slide-meta-row">
+            <span class="slide-katha-tag">🕊️ ದೈವೀ ರಹಸ್ಯ • ಪಿತೃದೇವತೆಗಳ ಉದ್ಭವ</span>
+            <span class="slide-number-badge">ಸ್ಲೈಡ್ ೧೧ / ೨೦</span>
+          </div>
+          <h2 class="slide-title">ಪಿತೃದೇವತೆಗಳ ಉಗಮ ಕಥೆ — "ದೈವೀ ಕೊರಿಯರ್" ರಹಸ್ಯ</h2>
+          <p class="slide-subtitle">ಬ್ರಹ್ಮದೇವರಿಂದ ಜ್ಞಾನನಷ್ಟದ ಶಾಪ, ಮಕ್ಕಳಿಂದ ತಂದೆಗಳಿಗೆ ಉಪದೇಶ ಮತ್ತು ಶ್ರಾದ್ಧ ವಾಹಕರು</p>
+        </header>
+
+        <div class="slide-grid">
+          <div class="content-box">
+            <h3 class="box-title">📜 ಬ್ರಹ್ಮಪುತ್ರರ ಅಹಂಕಾರ & ಶಾಪ ವಿಮೋಚನೆ</h3>
+            <ul class="concept-list">
+              <li class="concept-item"><strong>ಅಹಂಕಾರ & ಶಾಪ:</strong> ಚತುರ್ಮುಖ ಬ್ರಹ್ಮದೇವರಿಂದ ಸೃಷ್ಟಿಸಲ್ಪಟ್ಟ ಆದಿ ಪುತ್ರರು ಅಹಂಕಾರಗ್ರಸ್ತರಾಗಿ ಭಗವಂತನ ಆರಾಧನೆಯನ್ನು ಮರೆತರು. ಬ್ರಹ್ಮದೇವರು ಕುಪಿತರಾಗಿ <strong>"ನಿಮ್ಮ ಜ್ಞಾನವೆಲ್ಲಾ ನಷ್ಟವಾಗಲಿ"</strong> ಎಂದು ಶಾಪವಿತ್ತರು.</li>
+              <li class="concept-item"><strong>ಪ್ರಾಯಶ್ಚಿತ್ತ ಮಾರ್ಗ:</strong> ಅವರು ಪಶ್ಚಾತ್ತಾಪಪಟ್ಟು ಕ್ಷಮೆ ಯಾಚಿಸಿದಾಗ, ಬ್ರಹ್ಮದೇವರು ಪರಿಹಾರ ನೀಡಿದರು: <em>"ನೀವು ನಿಮ್ಮ ಮಕ್ಕಳ ಬಳಿಗೆ ಹೋಗಿ ದೈವಿಕ ಜ್ಞಾನೋಪದೇಶವನ್ನು ಪಡೆಯಿರಿ."</em></li>
+              <li class="concept-item"><strong>"ಪುತ್ರಕಾಃ" (ಮಕ್ಕಳೇ!) ಸಂಬೋಧನೆ:</strong> ಮಕ್ಕಳು ತಮ್ಮ ತಂದೆಗಳಿಗೆ ಜ್ಞಾನೋಪದೇಶ ಮಾಡುವಾಗ ಪ್ರೀತಿಯಿಂದ "ಮಕ್ಕಳೇ (ಪುತ್ರಕಾಃ)" ಎಂದು ಕರೆದರು. ತಂದೆಗಳು ಅವಮಾನಿತರಾಗಿ ಬ್ರಹ್ಮದೇವರಿಗೆ ದೂರಿತ್ತರು.</li>
+              <li class="concept-item"><strong>ಬ್ರಹ್ಮನ ನಿರ್ಣಯ:</strong> <em>"ಅವಮಾನಪಡಬೇಡಿ! ಜ್ಞಾನ ಕೊಟ್ಟದ್ದರಿಂದ ಅವರು ನಿಜಕ್ಕೂ ನಿಮಗೆ ಪಿತೃಗಳೇ ಹೌದು. ಅವರು ದೇವಗಣಕ್ಕೆ ಸೇರಿದ <strong>ಪಿತೃದೇವತೆಗಳು</strong>!"</em></li>
+            </ul>
+          </div>
+
+          <div class="content-box">
+            <h3 class="box-title">📦 ದೈವೀ ಕೊರಿಯರ್ ವ್ಯವಸ್ಥೆ (Divine Courier System)</h3>
+            <ul class="concept-list">
+              <li class="concept-item"><strong>ಸಾಮಾನ್ಯರ ಸಂಶಯ:</strong> "ನಾವು ಭೂಮಿಯಲ್ಲಿ ಎಳ್ಳು-ನೀರು, ಅನ್ನದ ಪಿಂಡ ಹಾಕಿದರೆ, ನಮ್ಮ ಮೃತ ತಂದೆ-ತಾಯಿ ಎಲ್ಲೋ ಜನ್ಮವೆತ್ತಿದ್ದರೆ ಅವರಿಗೆ ಅದು ಹೇಗೆ ಮುಟ್ಟುತ್ತದೆ?"</li>
+              <li class="concept-item"><strong>ಶ್ರೀಪಾದಂಗಳವರ ಅಮೃತ ದೃಷ್ಟಾಂತ:</strong>
+                <br>• ನಾವು ಪೋಸ್ಟ್ ಆಫೀಸ್ ಅಥವಾ ಕೊರಿಯರ್ ಮುಖಾಂತರ ಬೆಂಗಳೂರಿನಿಂದ ಅಮೆರಿಕಕ್ಕೆ ಹಣ ಕಳಿಸಿದರೆ, ಅಲ್ಲಿಯ ಕರೆನ್ಸಿ (ಡಾಲರ್) ಆಗಿ ಪರಿವರ್ತಿತವಾಗಿ ಮುಟ್ಟುತ್ತದಲ್ಲವೇ?
+                <br>• ಹಾಗೆಯೇ, ನಾವು ಶ್ರಾದ್ಧದಲ್ಲಿ ಅರ್ಪಿಸುವ ಅನ್ನ-ತರ್ಪಣಗಳನ್ನು ಸ್ವೀಕರಿಸಿ, ನಮ್ಮ ಪಿತೃಗಳು ಎಲ್ಲೇ ಇರಲಿ (ದೇವಲೋಕ, ನರಕ, ಪಶು, ಪಕ್ಷಿ, ಮನುಷ್ಯ ಯೋನಿ), ಅವರಿಗೆ ತಕ್ಕ ಆಹಾರವಾಗಿ <strong>(ದೇವತೆಗಳಿಗೆ ಅಮೃತ, ಪಶುಗಳಿಗೆ ಹುಲ್ಲು, ಮಾಂಸ, ದೈವಿಕ ತೃಪ್ತಿ)</strong> ರೂಪಾಂತರಿಸಿ ತಲುಪಿಸುವ ಜವಾಬ್ದಾರಿ ಈ <strong>ಪಿತೃದೇವತೆಗಳದ್ದು</strong>!
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="speaker-cue-box">
+          <div class="speaker-cue-header">
+            <span class="speaker-cue-title">🎙️ ಉಪನ್ಯಾಸ ನಿರ್ದೇಶನ (Upanyasa Notes & Speaker Cues)</span>
+            <span class="speaker-cue-tag">ಆಧುನಿಕ ಸಂಶಯಗಳಿಗೆ ಶಾಸ್ತ್ರೀಯ ಸಮಾಧಾನ</span>
+          </div>
+          <p class="speaker-cue-text">ಇಂದಿನ ಯುವಪೀಳಿಗೆಗೆ ಶ್ರಾದ್ಧದ ಬಗ್ಗೆ ಇರುವ ವೈಜ್ಞಾನಿಕ ಸಂದೇಹಗಳನ್ನು ಹೋಗಲಾಡಿಸಲು ಶ್ರೀಪಾದಂಗಳವರು ನೀಡಿದ ಈ "ದೈವೀ ಕೊರಿಯರ್" ದೃಷ್ಟಾಂತವನ್ನು ಅತ್ಯಂತ ಸರಳವಾಗಿ ಮತ್ತು ಪರಿಣಾಮಕಾರಿಯಾಗಿ ಸಭೆಯಲ್ಲಿ ಮಂಡಿಸಿ ಶ್ರಾದ್ಧದ ಮಹತ್ತ್ವವನ್ನು ಎತ್ತಿಹಿಡಿಯಬೇಕು.</p>
+        </div>
+      </article>
+
+      <!-- ====================================================================
+           SLIDE 12: Shraddha Krama & Ashtanga Pinda Lakshana
+           ==================================================================== -->
+      <article class="slide" data-index="12" data-parva="ಪಿತೃ ಕಲ್ಪ" data-category="ಶ್ರಾದ್ಧ ವಿಧಿ" data-keywords="ಶ್ರಾದ್ಧ ಕ್ರಮ ವಿಶ್ವೇಶೇವತೆಗಳು ಪಿತೃದೇವತೆಗಳು ಸ್ವಪಿತೃಗಳು ಅಷ್ಟಾಂಗ ಪಿಂಡ ಸೂಕ್ಷ್ಮ ಶರೀರ">
+        <header class="slide-header">
+          <div class="slide-meta-row">
+            <span class="slide-katha-tag">🍲 ಶ್ರಾದ್ಧ ಮೀಮಾಂಸೆ • ಅಷ್ಟಾಂಗ ಪಿಂಡ ತತ್ತ್ವ</span>
+            <span class="slide-number-badge">ಸ್ಲೈಡ್ ೧೨ / ೨೦</span>
+          </div>
+          <h2 class="slide-title">ಶ್ರಾದ್ಧದ ತ್ರಿವಿಧ ಕ್ರಮ ಹಾಗೂ ಅಷ್ಟಾಂಗ ಪಿಂಡ ಲಕ್ಷಣ</h2>
+          <p class="slide-subtitle">ವಿಶ್ವೇದೇವತೆಗಳ ರಕ್ಷಣೆ, ಪಿತೃದೇವತೆಗಳ ಸೇತುವೆ ಮತ್ತು ಪಿಂಡದಿಂದ ಸೂಕ್ಷ್ಮ ಶರೀರ ನಿರ್ಮಾಣ</p>
+        </header>
+
+        <div class="slide-grid">
+          <div class="content-box">
+            <h3 class="box-title">🛡️ ಶ್ರಾದ್ಧದ ೩ ಹಂತಗಳ ಕ್ರಮಾನುಗತ ವಿಧಿ</h3>
+            <ul class="concept-list">
+              <li class="concept-item"><strong>೧. ವಿಶ್ವೇದೇವತೆಗಳ ಪೂಜೆ (ರಕ್ಷಕರು):</strong> ಶ್ರಾದ್ಧದ ಅನ್ನವನ್ನು ಕೆಡಿಸಲು, ಅಪವಿತ್ರಗೊಳಿಸಲು ಬರುವ ದುಷ್ಟ ಭೂತ-ಪ್ರೇತ-ಪಿಶಾಚಿಗಳನ್ನು ಓಡಿಸಿ, ಶ್ರಾದ್ಧ ಮಂಟಪವನ್ನು ಸಂರಕ್ಷಿಸುವ ರಕ್ಷಕ ದೇವತೆಗಳು.</li>
+              <li class="concept-item"><strong>೨. ಪಿತೃದೇವತೆಗಳ ಪೂಜೆ (ಕೊರಿಯರ್‌ಗಳು):</strong> ಶ್ರಾದ್ಧದ ಹವಿಸ್ಸನ್ನು ಸ್ವೀಕರಿಸಿ ಪಿತೃಲೋಕಕ್ಕೆ ಕೊಂಡೊಯ್ಯುವ ದಿವ್ಯ ದೇವಗಣ.</li>
+              <li class="concept-item"><strong>೩. ಸ್ವಪಿತೃಗಳ ಪೂಜೆ (೩ ತಲೆಮಾರು):</strong> ಪಿತೃ (ತಂದೆ), ಪಿತಾಮಹ (ಅಜ್ಜ), ಪ್ರಪಿತಾಮಹ (ಮುತ್ತಜ್ಜ) — ಈ ಮೂವರಿಗಾಗಿ ಮೂರು ದರ್ಭಾಸ್ತರಣೆಗಳ ಮೇಲೆ ಪ್ರತ್ಯೇಕವಾಗಿ ಪಿಂಡ ಪ್ರದಾನ.</li>
+            </ul>
+          </div>
+
+          <div class="content-box">
+            <h3 class="box-title">🌾 ಅಷ್ಟಾಂಗ ಪಿಂಡ ನಿರ್ಮಾಣ ರಹಸ್ಯ (೮ ದ್ರವ್ಯಗಳು)</h3>
+            <div class="shloka-box" style="margin-top:0;">
+              <div class="shloka-source">ಪಿಂಡ ಲಕ್ಷಣ ಶ್ಲೋಕ</div>
+              <div class="shloka-sanskrit">तिलैर्यवैः शिरः प्रोक्तं दध्ना नासा प्रकीर्तिता ।
+घृतेन कर्णौ विज्ञेयौ गुडेन भुजयुग्मकम् ॥
+क्षीरेण हृदयं प्रोक्तं मधुना रोम सञ्चयः ।
+जलेन पादहस्तादीन् पिण्डः स्यात् सूक्ष्मदेहवान् ॥</div>
+              <div class="shloka-meaning">ಎಳ್ಳು, ಬೆಲ್ಲ, ಅನ್ನ, ಹಾಲು, ಮೊಸರು, ಜೇನುತುಪ್ಪ, ತುಪ್ಪ, ನೀರು — ಈ ೮ ದ್ರವ್ಯಗಳಿಂದ ಕೂಡಿದ ಪಿಂಡವು ಅಗಲಿ ಹೋದ ಪಿತೃಗಳ ಸೂಕ್ಷ್ಮ ಶರೀರವಾಗುತ್ತದೆ!</div>
+            </div>
+
+            <table class="comparison-table">
+              <thead>
+                <tr>
+                  <th>ಪಿಂಡ ದ್ರವ್ಯ</th>
+                  <th>ಸೂಕ್ಷ್ಮ ಶರೀರದ ಅಂಗ</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td>ಅಕ್ಕಿ-ಎಳ್ಳು (ಅನ್ನ-ತಿಲ)</td><td>ಶಿರಸ್ಸು (ತಲೆಭಾಗ)</td></tr>
+                <tr><td>ಮೊಸರು (ದಧಿ)</td><td>ನಾಸಿಕ (ಮೂಗು)</td></tr>
+                <tr><td>ತುಪ್ಪ (ಘೃತ)</td><td>ಕಿವಿಗಳು (ಕರ್ಣ)</td></tr>
+                <tr><td>ಬೆಲ್ಲ (ಗುಡ)</td><td>ಬಾಹುಗಳು / ಕೈಗಳು</td></tr>
+                <tr><td>ಹಾಲು (ಕ್ಷೀರ)</td><td>ಹೃದಯ (ಎದೆಭಾಗ)</td></tr>
+                <tr><td>ಜೇನುತುಪ್ಪ (ಮಧು)</td><td>ರೋಮಕೂಪಗಳು (ಕೂದಲು)</td></tr>
+                <tr><td>ನೀರು (ಜಲ)</td><td>ಕೈ-ಕಾಲುಗಳ ಚಲನೆ</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="speaker-cue-box">
+          <div class="speaker-cue-header">
+            <span class="speaker-cue-title">🎙️ ಉಪನ್ಯಾಸ ನಿರ್ದೇಶನ (Upanyasa Notes & Speaker Cues)</span>
+            <span class="speaker-cue-tag">ಕರ್ಮಶ್ರದ್ಧೆಯ ಪುನರುತ್ಥಾನ</span>
+          </div>
+          <p class="speaker-cue-text">ಪಿಂಡದ ಈ ೮ ಅಂಗಗಳ ರಹಸ್ಯವನ್ನು ಸಭಿಕರಿಗೆ ಮನಮುಟ್ಟುವಂತೆ ತಿಳಿಸಿ. "ನಾವು ನೀಡುವ ಪಿಂಡವು ಕೇವಲ ಅನ್ನದ ಉಂಡೆಯಲ್ಲ, ಅದು ನಮ್ಮ ಪಿತೃಗಳಿಗೆ ಪರಲೋಕದಲ್ಲಿ ಭಗವಂತನ ಆಜ್ಞೆಯಂತೆ ಒದಗುವ ಸೂಕ್ಷ್ಮ ಶರೀರ ರೂಪದ ಭೋಜನ" ಎಂಬ ಭಾವನೆಯನ್ನು ಪ್ರತಿಯೊಬ್ಬರಲ್ಲೂ ಬಿತ್ತಬೇಕು.</p>
+        </div>
+      </article>
+
+      <!-- ====================================================================
+           SLIDE 13: Bhishma & King Shantanu Shraddha Akhyayika
+           ==================================================================== -->
+      <article class="slide" data-index="13" data-parva="ಆಖ್ಯಾಯಿಕಾ" data-category="ಶಾಸ್ತ್ರನಿಷ್ಠೆ" data-keywords="ಭೀಷ್ಮ ಶಂತನು ಶ್ರಾದ್ಧ ಕೈ ಚಾಚಿದ್ದು ನೈಷ ಕಲ್ಪೇ ವಿಧಿರ್ದೃಷ್ಟಃ ದರ್ಭೆ ಸ್ವಚ್ಛಂದ ಮೃತ್ಯು ಇಚ್ಛಾ ಮರಣ">
+        <header class="slide-header">
+          <div class="slide-meta-row">
+            <span class="slide-katha-tag">⚔️ ಮಹಾಭಾರತ ಆಖ್ಯಾಯಿಕಾ • ಭೀಷ್ಮ ಶಂತನು ಸಂವಾದ</span>
+            <span class="slide-number-badge">ಸ್ಲೈಡ್ ೧೩ / ೨೦</span>
+          </div>
+          <h2 class="slide-title">ಶಂತನು ಚಕ್ರವರ್ತಿ ಹಾಗೂ ಭೀಷ್ಮಾಚಾರ್ಯರ ಶ್ರಾದ್ಧ ಪ್ರಸಂಗ</h2>
+          <p class="slide-subtitle">ತಂದೆಯ ಆಭರಣಭೂಷಿತ ಹಸ್ತ ಪ್ರತ್ಯಕ್ಷ, ಭಾವನೆಗಿಂತ ಶಾಸ್ತ್ರವೇ ಮಿಗಿಲು ಮತ್ತು ಇಚ್ಛಾಮರಣದ ವರ</p>
+        </header>
+
+        <div class="slide-grid">
+          <div class="content-box">
+            <h3 class="box-title">🖐️ ಭೂಮಿ ಸೀಳಿ ಬಂದ ಶಂತನುವಿನ ಹಸ್ತ</h3>
+            <ul class="concept-list">
+              <li class="concept-item"><strong>ಭೀಷ್ಮರ ಶ್ರಾದ್ಧ:</strong> ಗಂಗಾಪುತ್ರ ಭೀಷ್ಮಾಚಾರ್ಯರು ಪರಮ ಭಕ್ತಿಯಿಂದ ತನ್ನ ಪಿತೃವಾದ ಶಂತನು ಚಕ್ರವರ್ತಿಗೆ ಶ್ರಾದ್ಧ ಕರ್ಮವನ್ನು ನೆರವೇರಿಸುತ್ತಿದ್ದರು.</li>
+              <li class="concept-item"><strong>ಅದ್ಭುತ ಪವಾಡ:</strong> ಪಿಂಡ ಪ್ರದಾನ ಮಾಡುವ ಹೊತ್ತಿಗೆ, ಸ್ವತಃ ಭೂಮಿ ಸೀಳಿ ಶಂತನು ರಾಜನ ಆಭರಣಭೂಷಿತವಾದ, ರತ್ನಖಚಿತವಾದ ದಿವ್ಯ ಹಸ್ತವು ಪ್ರತ್ಯಕ್ಷವಾಗಿ <em>"ಮಗನೇ, ಪಿಂಡವನ್ನು ನನ್ನ ಕೈಯಲ್ಲೇ ಇಡು!"</em> ಎಂದು ಕೈಚಾಚಿತು!</li>
+              <li class="concept-item"><strong>ಭಾವನಾತ್ಮಕ ಪರೀಕ್ಷೆ:</strong> ಹೆತ್ತ ತಂದೆಯು ಪ್ರತ್ಯಕ್ಷವಾಗಿ ಕೈಚಾಚಿದಾಗ ಯಾವುದೇ ಮಗನಿಗಾದರೂ ಕೈಯಲ್ಲೇ ಪಿಂಡವಿಟ್ಟು ಧನ್ಯತೆ ಪಡೆಯುವ ಮನಸ್ಸಾಗುತ್ತದೆ. ಭೀಷ್ಮರಿಗೂ ಕ್ಷಣಕಾಲ ಹಾಗೆಯೇ ಅನ್ನಿಸಿತು.</li>
+            </ul>
+          </div>
+
+          <div class="content-box">
+            <h3 class="box-title">⚖️ "ನೈಷ ಕಲ್ಪೇ ವಿಧಿರ್ದೃಷ್ಟಃ" — ಭೀಷ್ಮರ ಶಾಸ್ತ್ರನಿಷ್ಠೆ</h3>
+            <div class="shloka-box" style="margin-top:0;">
+              <div class="shloka-source">ಭೀಷ್ಮರ ಅಚಲ ನಿರ್ಧಾರ</div>
+              <div class="shloka-sanskrit">नैष कल्पे विधिर्दृष्टः ।</div>
+              <div class="shloka-kannada">"ನೈಷ ಕಲ್ಪೇ ವಿಧಿರ್ದೃಷ್ಟಃ" — ಶಾಸ್ತ್ರದಲ್ಲಿ ಹೀಗೆ ವಿಧಿಸಿಲ್ಲ!
+ಕಲ್ಪಸೂತ್ರದ ಪ್ರಕಾರ ಪಿಂಡವನ್ನು ದರ್ಭೆಯ ಮೇಲೆಯೇ ಇಡಬೇಕೇ ಹೊರತು, ಸಾಕ್ಷಾತ್ ತಂದೆಯೇ ಕೈಚಾಚಿದರೂ ಕೈಯಲ್ಲಿಡಬಾರದು!</div>
+              <div class="shloka-meaning">ತಾತ್ಪರ್ಯ: ಭಗವದಜ್ಞಾರೂಪವಾದ ಶಾಸ್ತ್ರ ವಿಧಿಯು ಲೌಕಿಕ ಅಥವಾ ಕೌಟುಂಬಿಕ ಭಾವನೆಗಳಿಗಿಂತ ಅನಂತ ಪಟ್ಟು ಶ್ರೇಷ್ಠ.</div>
+            </div>
+
+            <ul class="concept-list">
+              <li class="concept-item"><strong>ಇಚ್ಛಾ ಮರಣದ ವರ:</strong> ಭೀಷ್ಮರು ತಂದೆಯ ಕೈಯನ್ನು ಬದಿಗಿಟ್ಟು ದರ್ಭೆಯ ಮೇಲೆಯೇ ಪಿಂಡವಿಟ್ಟರು. ಶಂತನು ಅತ್ಯಂತ ಪ್ರಸನ್ನನಾಗಿ ಪ್ರತ್ಯಕ್ಷನಾಗಿ ನುಡಿದನು: <em>"ಮಗನೇ, ನಿನ್ನ ಶಾಸ್ತ್ರನಿಷ್ಠೆಯನ್ನು ಪರೀಕ್ಷಿಸಲು ನಾನು ಬಂದೆ. ನೀನು ಗೆದ್ದೆ! ನಿನಗೆ <strong>'ಸ್ವಚ್ಛಂದ ಮೃತ್ಯು' (ಇಚ್ಛಾ ಮರಣ)</strong> ವರವನ್ನು ಕರುಣಿಸಿದ್ದೇನೆ!"</em></li>
+              <li class="concept-item">ಅನಂತರ ಭೀಷ್ಮರು ಶಂತನುವಿನಿಂದ ಪಿತೃದೇವತೆಗಳ ವಂಶಾವಳಿಯ ಪರಮ ರಹಸ್ಯವನ್ನು ಕೇಳಿ ಪಡೆದರು.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="speaker-cue-box">
+          <div class="speaker-cue-header">
+            <span class="speaker-cue-title">🎙️ ಉಪನ್ಯಾಸ ನಿರ್ದೇಶನ (Upanyasa Notes & Speaker Cues)</span>
+            <span class="speaker-cue-tag">ಉಪನ್ಯಾಸದ ಶಿಖರ ಪ್ರಾಯ ಘಟನೆ</span>
+          </div>
+          <p class="speaker-cue-text">ಈ ಪ್ರಸಂಗವು ಇಡೀ ಪ್ರವಚನದ ಅತ್ಯಂತ ನಾಟಕೀಯ ಮತ್ತು ತತ್ತ್ವಭರಿತ ಕ್ಷಣ. "ಭಾವನೆ ಮುಖ್ಯವೋ ಅಥವಾ ಭಗವಂತನ ಶಾಸ್ತ್ರ ಮುಖ್ಯವೋ?" ಎಂಬ ಪ್ರಶ್ನೆಯನ್ನು ಸಭೆಯ ಮುಂದಿಟ್ಟು, ಭೀಷ್ಮರ ಅಚಲ ಶಾಸ್ತ್ರನಿಷ್ಠೆಯನ್ನು ಗಂಭೀರವಾದ ಧ್ವನಿಯಲ್ಲಿ ಕೊಂಡಾಡಿ ಸಭಿಕರಲ್ಲಿ ಧರ್ಮಶ್ರದ್ಧೆಯನ್ನು ಜಾಗೃತಗೊಳಿಸಬೇಕು.</p>
+        </div>
+      </article>
+
+      <!-- ====================================================================
+           SLIDE 14: Sapta Pitru Ganas - The 7 Divine Pitru Classes
+           ==================================================================== -->
+      <article class="slide" data-index="14" data-parva="ಸಪ್ತ ಪಿತೃಗಳು" data-category="ಪಿತೃಗಣ ದರ್ಶನ" data-keywords="ಸಪ್ತ ಪಿತೃಗಣಗಳು ವೈರಾಜರು ಅಗ್ನಿಷ್ವಾತ್ತರು ಬರ್ಹಿಷದರು ಸುಕಾಲರು ಅಂಗಿರಸರು ಸುಸ್ವಧರು ಸೋಮಪರು">
+        <header class="slide-header">
+          <div class="slide-meta-row">
+            <span class="slide-katha-tag">🌌 ಪಿತೃಲೋಕ ವಿಜ್ಞಾನ • ಸಪ್ತ ಪಿತೃಗಣಗಳು</span>
+            <span class="slide-number-badge">ಸ್ಲೈಡ್ ೧೪ / ೨೦</span>
+          </div>
+          <h2 class="slide-title">ಸಪ್ತ ಪಿತೃಗಣಗಳ ದಿವ್ಯ ಪರಿಚಯ</h2>
+          <p class="slide-subtitle">ಪಿತೃಲೋಕವನ್ನು ನಿಯಂತ್ರಿಸುವ ೭ ಪ್ರಮುಖ ದೇವಗಣಗಳು ಹಾಗೂ ಅವುಗಳ ಕಾರ್ಯವೈಖರಿ</p>
+        </header>
+
+        <div class="slide-grid">
+          <div class="content-box">
+            <h3 class="box-title">👑 ಸಪ್ತ ಪಿತೃಗಣಗಳ ವರ್ಗೀಕರಣ</h3>
+            <ul class="concept-list">
+              <li class="concept-item"><strong>೧. ವೈರಾಜರು (Vairajas):</strong> ಅಮೂರ್ತ (ರೂಪರಹಿತ/ತೇಜೋಮಯ) ಪಿತೃಗಳು. ಬ್ರಹ್ಮರ್ಷಿಗಳಿಂದ ಪೂಜಿತರಾದ ಶ್ರೇಷ್ಠ ಗಣ. ಮೇನಾದೇವಿಯ ಜನಕರು.</li>
+              <li class="concept-item"><strong>೨. ಅಗ್ನಿಷ್ವಾತ್ತರು (Agnishvattas):</strong> ಅಗ್ನಿಯಿಂದ ಪಾವನರಾದವರು, ದೇವತೆಗಳ ಪಿತೃಗಳು. ಯಾಗಾದಿಗಳಲ್ಲಿ ನಿರತರಾದವರಿಗೆ ಇಷ್ಟಾರ್ಥ ನೀಡುವವರು.</li>
+              <li class="concept-item"><strong>೩. ಬರ್ಹಿಷದರು (Barhishadas):</strong> ದರ್ಭೆಯ ಮೇಲೆ ಕುಳಿತು ಹವಿಸ್ಸನ್ನು ಸ್ವೀಕರಿಸುವವರು, ದಾನವ-ದೈತ್ಯರ ಪಿತೃಗಳ ವರ್ಗ.</li>
+              <li class="concept-item"><strong>೪. ಸುಕಾಲರು (Sukalas):</strong> ಶುಭಕಾಲ ಹಾಗೂ ಋತುಗಳನ್ನು ನಿಯಂತ್ರಿಸುವ ಪಿತೃ ದೇವತೆಗಳು.</li>
+              <li class="concept-item"><strong>೫. ಅಂಗಿರಸರು (Angirasas):</strong> ಅಂಗಿರಸ ಮಹರ್ಷಿಗಳ ವಂಶದಿಂದ ಪ್ರಾಪ್ತರಾದ, ತೇಜಸ್ಸು ಮತ್ತು ಯಜ್ಞ ರಕ್ಷಕ ಪಿತೃಗಳು.</li>
+              <li class="concept-item"><strong>೬. ಸುಸ್ವಧರು (Susvadhas):</strong> 'ಸ್ವಧಾ' ಮಂತ್ರದ ಶಕ್ತಿಯನ್ನು ರಕ್ಷಿಸುವ ಮತ್ತು ತರ್ಪಣವನ್ನು ಶುದ್ಧೀಕರಿಸುವ ಗಣ.</li>
+              <li class="concept-item"><strong>೭. ಸೋಮಪರು (Somapas):</strong> ಸೋಮರಸವನ್ನು ಪಾನ ಮಾಡುವ, ಬ್ರಾಹ್ಮಣರ ಮುಕ್ತಿಮಾರ್ಗಕ್ಕೆ ಸಹಕಾರಿಯಾದ ಪಿತೃಗಳು.</li>
+            </ul>
+          </div>
+
+          <div class="content-box">
+            <h3 class="box-title">⚖️ ಪಿತೃಗಣಗಳ ಲಕ್ಷಣ & ಕಾರ್ಯವ್ಯಾಪ್ತಿ</h3>
+            <table class="comparison-table">
+              <thead>
+                <tr>
+                  <th>ಪಿತೃಗಣ</th>
+                  <th>ಸ್ವರೂಪ</th>
+                  <th>ವಿಶೇಷ ಆಡಳಿತ</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>ವೈರಾಜರು</td>
+                  <td>ಅಮೂರ್ತ (ತೇಜೋರೂಪ)</td>
+                  <td>ಬ್ರಹ್ಮಜ್ಞಾನಿಗಳಿಗೆ ಮುಕ್ತಿ, ಮೇನಾ ಸಂತತಿ</td>
+                </tr>
+                <tr>
+                  <td>ಅಗ್ನಿಷ್ವಾತ್ತರು</td>
+                  <td>ಅಗ್ನಿಸ್ವರೂಪ</td>
+                  <td>ದೇವತೆಗಳ ತೃಪ್ತಿ, ಹವಿಸ್ಸು ವಹನ</td>
+                </tr>
+                <tr>
+                  <td>ಬರ್ಹಿಷದರು</td>
+                  <td>ದರ್ಭಾಸನಸ್ಥರು</td>
+                  <td>ಪಿತೃಯಜ್ಞ ಹಾಗೂ ಶ್ರಾದ್ಧ ರಕ್ಷಣೆ</td>
+                </tr>
+                <tr>
+                  <td>ಸುಕಾಲರು-ಅಂಗಿರಸರು</td>
+                  <td>ಋಷಿ ಸ್ವರೂಪ</td>
+                  <td>ಕಾಲನಿಯಮನ ಹಾಗೂ ಯಾಗಫಲ</td>
+                </tr>
+                <tr>
+                  <td>ಸುಸ್ವಧರು-ಸೋಮಪರು</td>
+                  <td>ಸೋಮ/ಅಮೃತ ಪಾನಿಗಳು</td>
+                  <td>ಸ್ವಧಾ ಸಮರ್ಪಣೆ ಹಾಗೂ ತರ್ಪಣ ತೃಪ್ತಿ</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="speaker-cue-box">
+          <div class="speaker-cue-header">
+            <span class="speaker-cue-title">🎙️ ಉಪನ್ಯಾಸ ನಿರ್ದೇಶನ (Upanyasa Notes & Speaker Cues)</span>
+            <span class="speaker-cue-tag">ಪಿತೃ ವಿಜ್ಞಾನದ ಹಿರಿಮೆ</span>
+          </div>
+          <p class="speaker-cue-text">ಈ ೭ ಗಣಗಳ ಹೆಸರುಗಳನ್ನು ಸ್ಪಷ್ಟವಾಗಿ ಉಚ್ಚರಿಸಬೇಕು. "ನಮ್ಮ ಪೂರ್ವಜರು ಕೇವಲ ಮಣ್ಣಿನಲ್ಲಿ ಮಣ್ಣಾಗಲಿಲ್ಲ; ಪಿತೃಲೋಕದಲ್ಲಿ ಈ ೭ ಗಣಗಳ ರಕ್ಷಣೆಯಲ್ಲಿ ಭಗವಂತನ ವ್ಯವಸ್ಥೆಯೊಳಗೆ ನೆಲೆಸಿದ್ದಾರೆ" ಎಂಬುದನ್ನು ಸಭಿಕರಿಗೆ ಸ್ಪಷ್ಟಪಡಿಸಬೇಕು.</p>
+        </div>
+      </article>
+
+      <!-- ====================================================================
+           SLIDE 15: Vairaja Pitru Gana Lineage - Mena & Himavanta
+           ==================================================================== -->
+      <article class="slide" data-index="15" data-parva="ವೈರಾಜ ವಂಶ" data-category="ಮೇನಾ ಹಿಮವಂತ" data-keywords="ವೈರಾಜ ಪಿತೃಗಳು ಮೇನಾದೇವಿ ಹಿಮವಂತ ಹಿಮಾಲಯ ಮೈನಾಕ ಕ್ರೌಂಚ ಅಪರ್ಣಾ ಪಾರ್ವತಿ">
+        <header class="slide-header">
+          <div class="slide-meta-row">
+            <span class="slide-katha-tag">🏔️ ಗಿರಿರಾಜ ಚರಿತ್ರೆ • ವೈರಾಜ ವಂಶಾವಳಿ</span>
+            <span class="slide-number-badge">ಸ್ಲೈಡ್ ೧೫ / ೨೦</span>
+          </div>
+          <h2 class="slide-title">ವೈರಾಜ ಪಿತೃಗಣದ ವಂಶಾವಳಿ — ಮೇನಾದೇವಿ & ಹಿಮವಂತ</h2>
+          <p class="slide-subtitle">ಮಾನಸ ಪುತ್ರಿ ಮೇನಾದೇವಿ, ಪರ್ವತರಾಜ ಹಿಮಾಲಯನ ದಾಂಪತ್ಯ ಮತ್ತು ದಿವ್ಯ ಸಂತಾನ</p>
+        </header>
+
+        <div class="slide-grid tree-layout">
+          <div class="content-box">
+            <h3 class="box-title">🌸 ಮೇನಾದೇವಿಯ ಅವತಾರ & ಗಿರಿರಾಜ ವಿವಾಹ</h3>
+            <ul class="concept-list">
+              <li class="concept-item"><strong>ಮಾನಸ ಪುತ್ರಿ:</strong> ಸಪ್ತ ಪಿತೃಗಣಗಳಲ್ಲಿ ಪ್ರಥಮರಾದ <strong>ವೈರಾಜ ಪಿತೃದೇವತೆಗಳ ಮಾನಸ ಪುತ್ರಿ ಮೇನಾದೇವಿ</strong>.</li>
+              <li class="concept-item"><strong>ಹಿಮವಂತನ ವಿವಾಹ:</strong> ಮೇನಾದೇವಿಯನ್ನು ಪರ್ವತಗಳ ರಾಜನಾದ <strong>ಹಿಮಾಲಯ (ಹಿಮವಂತ)</strong> ವಿವಾಹವಾದನು.</li>
+              <li class="concept-item"><strong>ಇಬ್ಬರು ಗಿರಿ ಪುತ್ರರು:</strong>
+                <br>೧. <strong>ಮೈನಾಕ ಪರ್ವತ:</strong> ಸಮುದ್ರಲಂಘನ ಸಮಯದಲ್ಲಿ ಹನುಮಂತ ದೇವರಿಗೆ ವಿಶ್ರಾಂತಿ ನೀಡಿದ ಬಂಗಾರದ ರೆಕ್ಕೆಗಳುಳ್ಳ ಮಹಾಪರ್ವತ.
+                <br>೨. <strong>ಕ್ರೌಂಚ ಪರ್ವತ:</strong> ಸುಬ್ರಹ್ಮಣ್ಯ ದೇವರ ಶಕ್ತಿಯಿಂದ ವಿದಾರಣಗೊಂಡ ಪವಿತ್ರ ಪರ್ವತ.
+              </li>
+              <li class="concept-item"><strong>ಮೂವರು ತಪಸ್ವಿನಿ ಕನ್ಯೆಯರು:</strong> ಮೇನಾ-ಹಿಮವಂತರ ಗರ್ಭದಲ್ಲಿ ಜಗತ್ಪ್ರಸಿದ್ಧರಾದ ಮೂವರು ದೈವಿಕ ಕನ್ಯೆಯರು ಜನಿಸಿದರು — <strong>ಅಪರ್ಣಾ, ಏಕಪರ್ಣಾ, ಮತ್ತು ಏಕಪಾಟಲಾ!</strong></li>
+            </ul>
+          </div>
+
+          <div class="content-box">
+            <h3 class="box-title">🌳 ವೈರಾಜ ಕುಲ ವೃಕ್ಷ (Visual Lineage Tree)</h3>
+            <div class="tree-container">
+              <div class="tree-node root">
+                <div class="node-title">ವೈರಾಜ ಪಿತೃದೇವತೆಗಳು</div>
+                <div class="node-desc">ಅಮೂರ್ತ ದೇವಗಣ</div>
+              </div>
+              <div class="tree-connector">↓ ಮಾನಸ ಪುತ್ರಿ ↓</div>
+              <div class="tree-node branch">
+                <div class="node-title">ಮೇನಾದೇವಿ + ಹಿಮವಂತ (ಹಿಮಾಲಯ)</div>
+                <div class="node-desc">ಪರ್ವತರಾಜ ದಂಪತಿಗಳು</div>
+              </div>
+              <div class="tree-connector">↓ ಪುತ್ರರು & ಕನ್ಯೆಯರು ↓</div>
+              <div class="tree-branches-split" style="grid-template-columns: repeat(2, 1fr);">
+                <div class="tree-node">
+                  <div class="node-title">ಪುತ್ರರು (ಪರ್ವತಗಳು)</div>
+                  <div class="node-desc">• ಮೈನಾಕ ಪರ್ವತ<br>• ಕ್ರೌಂಚ ಪರ್ವತ</div>
+                </div>
+                <div class="tree-node" style="border-color:#ffd700;">
+                  <div class="node-title">ತ್ರಿಕನ್ಯೆಯರು (ತಪಸ್ವಿನಿಯರು)</div>
+                  <div class="node-desc">• ಅಪರ್ಣಾ (ಪಾರ್ವತೀ)<br>• ಏಕಪರ್ಣಾ<br>• ಏಕಪಾಟಲಾ</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="speaker-cue-box">
+          <div class="speaker-cue-header">
+            <span class="speaker-cue-title">🎙️ ಉಪನ್ಯಾಸ ನಿರ್ದೇಶನ (Upanyasa Notes & Speaker Cues)</span>
+            <span class="speaker-cue-tag">ಭಾರತದ ಪವಿತ್ರ ಭೂಗೋಳ</span>
+          </div>
+          <p class="speaker-cue-text">ಪಿತೃಲೋಕದ ಕಥೆಯು ಹೇಗೆ ಭಾರತದ ಹಿಮಾಲಯ, ಮೈನಾಕ ಪರ್ವತ ಮತ್ತು ಪಾರ್ವತಿಯ ಜನನದೊಂದಿಗೆ ಬೆಸೆಯುತ್ತದೆ ಎಂಬುದನ್ನು ತೋರಿಸಿ, "ನಮ್ಮ ಪುರಾಣಗಳು ಕೇವಲ ಕಾಲ್ಪನಿಕವಲ್ಲ, ಭಾರತದ ಪ್ರತಿಯೊಂದು ಪರ್ವತ-ನದಿಯಲ್ಲೂ ಜೀವಂತವಾಗಿವೆ" ಎಂಬುದನ್ನು ನಿರೂಪಿಸಬೇಕು.</p>
+        </div>
+      </article>
+
+      <!-- ====================================================================
+           SLIDE 16: The Three Ascetic Sisters - Aparna, Ekaparna & Ekapatala
+           ==================================================================== -->
+      <article class="slide" data-index="16" data-parva="ತ್ರಿಕನ್ಯೆಯರು" data-category="ತಪಶ್ಚರ್ಯೆ" data-keywords="ಅಪರ್ಣಾ ಉಮಾ ಪಾರ್ವತಿ ಶಿವ ರುದ್ರ ಏಕಪರ್ಣಾ ಅಸಿತ ದೇವಲ ಏಕಪಾಟಲಾ ಜೈಗೀಷವ್ಯ ತಪಸ್ಸು">
+        <header class="slide-header">
+          <div class="slide-meta-row">
+            <span class="slide-katha-tag">🔥 ತಪೋ ಮಹಿಮೆ • ತ್ರಿಕನ್ಯೆಯರ ಚರಿತ್ರೆ</span>
+            <span class="slide-number-badge">ಸ್ಲೈಡ್ ೧೬ / ೨೦</span>
+          </div>
+          <h2 class="slide-title">ತ್ರಿಕನ್ಯೆಯರ ತಪಸ್ಸು — ಅಪರ್ಣಾ (ಪಾರ್ವತೀ), ಏಕಪರ್ಣಾ & ಏಕಪಾಟಲಾ</h2>
+          <p class="slide-subtitle">ಕಠೋರ ತಪಶ್ಚರ್ಯೆ, 'ಉ ಮಾ' ನಾಮಕರಣ ಮತ್ತು ಮಹರ್ಷಿಗಳೊಂದಿಗೆ ವಿವಾಹ ರಹಸ್ಯ</p>
+        </header>
+
+        <div class="slide-grid">
+          <div class="content-box">
+            <h3 class="box-title">🔱 ೧. ಅಪರ್ಣಾ (ಪಾರ್ವತೀ / ಉಮಾ)</h3>
+            <ul class="concept-list">
+              <li class="concept-item"><strong>'ಅಪರ್ಣಾ' ಹೆಸರು ಏಕೆ?:</strong> ರುದ್ರದೇವರನ್ನು (ಶಿವನನ್ನು) ಪತಿಯಾಗಿ ಪಡೆಯಲು ತಪಸ್ಸು ಮಾಡುವಾಗ, ಉದುರಿದ ಒಂದೇ ಒಂದು ಮರದ ಎಲೆಯನ್ನೂ (ಪರ್ಣ) ಮುಟ್ಟದೆ, ತಿನ್ನದೆ ಕಠೋರ ನಿರಾಹಾರ ತಪಸ್ಸು ಮಾಡಿದ್ದರಿಂದ <strong>'ಅಪರ್ಣಾ'</strong> ಎಂದು ಹೆಸರಾಯಿತು.</li>
+              <li class="concept-item"><strong>'ಉಮಾ' ನಾಮಕರಣ:</strong> ಮಗಳ ಈ ಭೀಕರ ತಪಸ್ಸನ್ನು ಕಂಡು ತಾಯಿ ಮೇನಾದೇವಿ ಮರುಗುತ್ತಾ <em>"ಉ ಮಾ" (ಅಯ್ಯೋ ಮಗಳೇ, ಇಂತಹ ಕಷ್ಟದ ತಪಸ್ಸು ಬೇಡ!)</em> ಎಂದು ತಡೆದಿದ್ದರಿಂದ ಆಕೆಗೆ <strong>'ಉಮಾ'</strong> ಎಂದು ಹೆಸರಾಯಿತು.</li>
+              <li class="concept-item"><strong>ವಿವಾಹ:</strong> ಪರಮ ವೈಷ್ಣವನಾದ ಕೈಲಾಸಪತಿ ರುದ್ರದೇವನ (ಶಿವನ) ಪಟ್ಟದ ಮಹಾದೇವಿ.</li>
+            </ul>
+          </div>
+
+          <div class="content-box">
+            <h3 class="box-title">🌿 ೨. ಏಕಪರ್ಣಾ & ೩. ಏಕಪಾಟಲಾ</h3>
+            <ul class="concept-list">
+              <li class="concept-item"><strong>ಏಕಪರ್ಣಾ:</strong> ತಪಸ್ಸನ್ನಾಚರಿಸುವಾಗ ದಿನಕ್ಕೆ ಕೇವಲ ಒಂದೇ ಒಂದು ಸೊಪ್ಪಿನ ತುಂಡನ್ನು (ಒಂದು ಎಲೆ) ಮಾತ್ರ ತಿಂದು ಬದುಕಿದ ಮಹಾತಪಸ್ವಿನಿ. ಈಕೆಯನ್ನು <strong>ಅಸಿತ ದೇವಲ ಮಹರ್ಷಿಗಳು</strong> ವಿವಾಹವಾದರು.</li>
+              <li class="concept-item"><strong>ಏಕಪಾಟಲಾ:</strong> ದಿನಕ್ಕೆ ಕೇವಲ ಒಂದೇ ಒಂದು ಪಾಟಲಾ ಪುಷ್ಪವನ್ನು (ಹೂವು) ಸೇವಿಸುತ್ತಾ ಘೋರ ತಪಸ್ಸು ಮಾಡಿದವಳು. ಈಕೆಯನ್ನು ರುದ್ರದೇವರ ಅಂಶಾವತಾರಿಗಳಾದ <strong>ಜೈಗೀಷವ್ಯ ಮಹರ್ಷಿಗಳು</strong> ವಿವಾಹವಾದರು.</li>
+              <li class="concept-item"><strong>ದ್ವೈತ ತಾತ್ಪರ್ಯ:</strong> ಶ್ರೀಮನ್ಮಧ್ವಾಚಾರ್ಯರ ತಾರತಮ್ಯ ಪ್ರಮೇಯದಂತೆ ರುದ್ರ-ಪಾರ್ವತಿಯರು ಸದಾ ಶ್ರೀಮನ್ನಾರಾಯಣನ ಪರಮ ಭಕ್ತರು. ಅವರ ಈ ತಪಸ್ಸು ಪರಮಾತ್ಮನ ಪ್ರೀತಿಗಾಗಿ ನಡೆಸಿದ ಆದರ್ಶ ತಪಸ್ಸು.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="speaker-cue-box">
+          <div class="speaker-cue-header">
+            <span class="speaker-cue-title">🎙️ ಉಪನ್ಯಾಸ ನಿರ್ದೇಶನ (Upanyasa Notes & Speaker Cues)</span>
+            <span class="speaker-cue-tag">ನಾಮ ನಿಷ್ಪತ್ತಿ & ಸೌಂದರ್ಯ</span>
+          </div>
+          <p class="speaker-cue-text">'ಅಪರ್ಣಾ' ಮತ್ತು 'ಉಮಾ' ಎಂಬ ಶಬ್ದಗಳ ನಿಷ್ಪತ್ತಿಯನ್ನು (ವ್ಯುತ್ಪತ್ತಿ) ಸ್ಪಷ್ಟವಾಗಿ ವಿವರಿಸಿ. "ಇಂದಿನ ಕಾಲದಲ್ಲಿ ಉಪವಾಸವೆಂದರೆ ತಿಂಡಿ ಬದಲಾಯಿಸುವುದಲ್ಲ, ಅಪರ್ಣೆಯಂತೆ ಮನಸ್ಸನ್ನು ಭಗವಂತನಲ್ಲಿ ನಿಲ್ಲಿಸಿ ಮಾಡುವ ತ್ಯಾಗವೇ ನಿಜವಾದ ತಪಸ್ಸು" ಎಂದು ಆಧ್ಯಾತ್ಮಿಕ ಸಂದೇಶ ನೀಡಬೇಕು.</p>
+        </div>
+      </article>
+
+      <!-- ====================================================================
+           SLIDE 17: Master Genealogy Overview - Surya Vamsha & Pitru Vamsha
+           ==================================================================== -->
+      <article class="slide" data-index="17" data-parva="ಸಮಗ್ರ ವಂಶಾವಳಿ" data-category="ವಂಶವೃಕ್ಷ ಸಂಪುಟ" data-keywords="ಸಮಗ್ರ ವಂಶಾವಳಿ ವಂಶವೃಕ್ಷ ಸೂರ್ಯ ವೈರಾಜ ಚಂದ್ರ ಯದು ಪಿತೃ">
+        <header class="slide-header">
+          <div class="slide-meta-row">
+            <span class="slide-katha-tag">🌳 ಮಹಾವೃಕ್ಷ ದರ್ಶನ • ದಿನ ೧ ರ ಸಮಗ್ರ ವಂಶಾವಳಿ</span>
+            <span class="slide-number-badge">ಸ್ಲೈಡ್ ೧೭ / ೨೦</span>
+          </div>
+          <h2 class="slide-title">ಸಮಗ್ರ ವಂಶಾವಳಿ ದರ್ಶನ (Master Lineage Trees)</h2>
+          <p class="slide-subtitle">ಪ್ರವಚನದಲ್ಲಿ ಉಲ್ಲೇಖಿತವಾದ ಸಮಸ್ತ ದೈವೀ ಕುಲಗಳು ಹಾಗೂ ಶಾಖೆಗಳ ಸಂಕ್ಷಿಪ್ತ ನಕ್ಷೆ</p>
+        </header>
+
+        <div class="slide-grid tree-layout">
+          <div class="content-box">
+            <h3 class="box-title">☀️ ಶಾಖೆ ೧: ಸೂರ್ಯದೇವನ ಸಂತಾನ ವೃಕ್ಷ</h3>
+            <div class="tree-container" style="padding:0.75rem;">
+              <div class="tree-node root">
+                <div class="node-title">ಶ್ರೀಮನ್ನಾರಾಯಣ → ಬ್ರಹ್ಮ → ಕಶ್ಯಪ → ವಿವಸ್ವಾನ್ (ಸೂರ್ಯ)</div>
+              </div>
+              <div class="tree-connector">↓ ಮೂರು ವಿಭಾಗಗಳು ↓</div>
+              <div class="tree-branches-split" style="grid-template-columns: 1fr;">
+                <div class="tree-node branch">
+                  <div class="node-title">ಸಂಜ್ಞಾದೇವಿ ಶಾಖೆ</div>
+                  <div class="node-desc">೧. ಶ್ರಾದ್ಧದೇವ (೭ನೇ ಮನು) | ೨. ಯಮ (ಧರ್ಮರಾಜ) | ೩. ಯಮುನಾ (ನದಿ)</div>
+                </div>
+                <div class="tree-node branch">
+                  <div class="node-title">ಛಾಯಾದೇವಿ ಶಾಖೆ</div>
+                  <div class="node-desc">೪. ಸಾವರ್ಣಿ (೮ನೇ ಮನು) | ೫. ಶನೈಶ್ಚರ (ಶನಿಗ್ರಹ) | ೬. ತಪತೀ (ನದಿ)</div>
+                </div>
+                <div class="tree-node branch">
+                  <div class="node-title">ಉತ್ತರಕುರು ಬಡಬಾ ಶಾಖೆ</div>
+                  <div class="node-desc">೭. ನಾಸತ್ಯ | ೮. ದಸ್ರ (ಅಶ್ವಿನೀ ಕುಮಾರರು - ದೇವವೈದ್ಯರು)</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="content-box">
+            <h3 class="box-title">🏔️ ಶಾಖೆ ೨: ವೈರಾಜ ಪಿತೃ & ಹಿಮವಂತ ವಂಶಾವಳಿ</h3>
+            <div class="tree-container" style="padding:0.75rem;">
+              <div class="tree-node root">
+                <div class="node-title">ವೈರಾಜ ಪಿತೃಗಣ (ಅಮೂರ್ತ ದೇವತೆಗಳು)</div>
+              </div>
+              <div class="tree-connector">↓ ಮಾನಸ ಪುತ್ರಿ ↓</div>
+              <div class="tree-node branch">
+                <div class="node-title">ಮೇನಾದೇವಿ + ಹಿಮವಂತ (ಪರ್ವತರಾಜ)</div>
+              </div>
+              <div class="tree-connector">↓ ಪುತ್ರರು & ಕನ್ಯೆಯರು ↓</div>
+              <div class="tree-branches-split" style="grid-template-columns: 1fr;">
+                <div class="tree-node">
+                  <div class="node-title">ಗಿರಿ ಪುತ್ರರು: ಮೈನಾಕ & ಕ್ರೌಂಚ</div>
+                  <div class="node-desc">ಹನುಮಂತನಿಗೆ ವಿಶ್ರಾಂತಿ ನೀಡಿದ ಮೈನಾಕ ಪರ್ವತ</div>
+                </div>
+                <div class="tree-node">
+                  <div class="node-title">ಅಪರ್ಣಾ (ಪಾರ್ವತೀ) → ಪತಿ: ರುದ್ರದೇವ (ಶಿವ)</div>
+                  <div class="node-desc">ನಿರಾಹಾರ ತಪಶ್ಚರ್ಯೆ • ಉಮಾ ನಾಮಧೇಯ</div>
+                </div>
+                <div class="tree-node">
+                  <div class="node-title">ಏಕಪರ್ಣಾ → ಪತಿ: ಅಸಿತ ದೇವಲ ಋಷಿ</div>
+                  <div class="node-desc">ದಿನಕ್ಕೊಂದು ಎಲೆಯ ತಪಸ್ಸು</div>
+                </div>
+                <div class="tree-node">
+                  <div class="node-title">ಏಕಪಾಟಲಾ → ಪತಿ: ಜೈಗೀಷವ್ಯ ಮಹರ್ಷಿ</div>
+                  <div class="node-desc">ದಿನಕ್ಕೊಂದು ಹೂವಿನ ತಪಸ್ಸು</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="speaker-cue-box">
+          <div class="speaker-cue-header">
+            <span class="speaker-cue-title">🎙️ ಉಪನ್ಯಾಸ ನಿರ್ದೇಶನ (Upanyasa Notes & Speaker Cues)</span>
+            <span class="speaker-cue-tag">ನೆನಪಿನ ಸೂತ್ರಗಳು (Mnemonics)</span>
+          </div>
+          <p class="speaker-cue-text">ಉಪನ್ಯಾಸಕರು ವೇದಿಕೆಯಲ್ಲಿ ಪ್ರವಚನ ಮಾಡುವಾಗ, ಈ ಸ್ಲೈಡ್ ಅನ್ನು ಕ್ಷಿಪ್ರ ಸಂದರ್ಭಕ್ಕಾಗಿ (Quick Reference) ಬಳಸಿಕೊಳ್ಳಬಹುದು. ಸೂರ್ಯನ ೮ ಮಕ್ಕಳು ಮತ್ತು ಮೇನಾದೇವಿಯ ೫ ಸಂತಾನಗಳನ್ನು ಕಣ್ಣೆದುರು ತಂದುಕೊಂಡು ನಿರರ್ಗಳವಾಗಿ ಪ್ರವಚನವನ್ನು ಮುನ್ನಡೆಸಬಹುದು.</p>
+        </div>
+      </article>
+
+      <!-- ====================================================================
+           SLIDE 18: Upanyasa Paddhati & Dvaita Tatparya Synthesis
+           ==================================================================== -->
+      <article class="slide" data-index="18" data-parva="ಉಪನ್ಯಾಸ ಪದ್ಧತಿ" data-category="ದ್ವೈತ ತತ್ತ್ವ" data-keywords="ಉಪನ್ಯಾಸ ಪದ್ಧತಿ ದ್ವೈತ ಸಿದ್ಧಾಂತ ಸುವಿದ್ಯೇಂದ್ರ ಹರಿಸರ್ವೋತ್ತಮತ್ವ ಪಂಚಮಹಾಯಜ್ಞ ಪ್ರಮಾಣ">
+        <header class="slide-header">
+          <div class="slide-meta-row">
+            <span class="slide-katha-tag">🎓 ವಿದ್ವತ್ ದರ್ಶನ • ಉಪನ್ಯಾಸ ಪದ್ಧತಿ & ದ್ವೈತ ತತ್ತ್ವ</span>
+            <span class="slide-number-badge">ಸ್ಲೈಡ್ ೧೮ / ೨೦</span>
+          </div>
+          <h2 class="slide-title">ಉಪನ್ಯಾಸ ಪದ್ಧತಿ ಹಾಗೂ ದ್ವೈತ ತಾತ್ಪರ್ಯ ಸಾರಾಂಶ</h2>
+          <p class="slide-subtitle">ಪರಮಪೂಜ್ಯ ಶ್ರೀ ಸುವಿದ್ಯೇಂದ್ರ ತೀರ್ಥರ ಪ್ರವಚನ ಶೈಲಿಯ ೫ ಸುವರ್ಣ ಸೂತ್ರಗಳು</p>
+        </header>
+
+        <div class="slide-grid">
+          <div class="content-box">
+            <h3 class="box-title">🌟 ಶ್ರೀಪಾದಂಗಳವರ ಪ್ರವಚನ ಕಲೆಯ ೫ ಆಧಾರಸ್ತಂಭಗಳು</h3>
+            <ul class="concept-list">
+              <li class="concept-item"><strong>೧. ಹರಿಸರ್ವೋತ್ತಮತ್ವವೇ ಕೇಂದ್ರಬಿಂದು:</strong> ಯಾವುದೇ ವಂಶಾವಳಿ, ದೇವತೆ ಅಥವಾ ಋಷಿಯ ಚರಿತ್ರೆ ಹೇಳಿದರೂ ಕೊನೆಗೆ ಸರ್ವನಿಯಾಮಕನಾದ ಶ್ರೀಹರಿಯ ಸರ್ವೋತ್ತಮತ್ವ ಹಾಗೂ ದೋಷದೂರತ್ವದಲ್ಲೇ ಸಮನ್ವಯಗೊಳಿಸುವುದು.</li>
+              <li class="concept-item"><strong>೨. ಪ್ರಮಾಣಬದ್ಧ ನಿರೂಪಣೆ:</strong> ಕೇವಲ ಕಥೆಯನ್ನಷ್ಟೇ ಹೇಳದೆ, ವೇದ-ಮಹಾಭಾರತ-ಪುರಾಣಗಳ ಮೂಲ ಸಂಸ್ಕೃತ ಪ್ರಮಾಣ ಶ್ಲೋಕಗಳನ್ನು ಉಲ್ಲೇಖಿಸಿ ಮಾನ್ಯತೆ ನೀಡುವುದು.</li>
+              <li class="concept-item"><strong>೩. ಲೌಕಿಕ ದೃಷ್ಟಾಂತಗಳ ಬಳಕೆ:</strong> ಗಹನವಾದ ಪಿತೃ ತತ್ತ್ವವನ್ನು 'ದೈವೀ ಕೊರಿಯರ್' ಹಾಗೂ 'ಕರೆನ್ಸಿ ಬದಲಾವಣೆ' ಯಂತಹ ಅತ್ಯಂತ ಸಮಂಜಸವಾದ ಆಧುನಿಕ ಉಪಮೆಗಳ ಮೂಲಕ ಪಾಮರರಿಗೂ ಅರ್ಥವಾಗುವಂತೆ ಮಾಡುವುದು.</li>
+              <li class="concept-item"><strong>೪. ಶಾಸ್ತ್ರವಿಧಿಯ ಪಾವಿತ್ರ್ಯ:</strong> ಭೀಷ್ಮ-ಶಂತನು ಪ್ರಸಂಗದಲ್ಲಿ ತೋರಿಸಿದಂತೆ, ಮಾನವೀಯ ಕ್ಷಣಿಕ ಭಾವನೆಗಳಿಗಿಂತ ಈಶ್ವರನ ಆಜ್ಞೆಯಾದ ಶಾಸ್ತ್ರನಿಯಮವೇ ಸಾರ್ವಕಾಲಿಕ ಶ್ರೇಷ್ಠವೆಂದು ನಿರೂಪಿಸುವುದು.</li>
+              <li class="concept-item"><strong>೫. ಗೃಹಸ್ಥ ಧರ್ಮ ಜಾಗೃತಿ:</strong> ಕಥೆಯ ಜತೆಗೆ ಪ್ರತಿಯೊಬ್ಬ ಸಭಿಕನೂ ನಿತ್ಯ ಪಿತೃತರ್ಪಣ, ಶ್ರಾದ್ಧ ಮತ್ತು ಪಂಚಮಹಾಯಜ್ಞಗಳನ್ನು ತಪ್ಪದೆ ಮಾಡುವಂತೆ ಪ್ರೇರೇಪಿಸುವುದು.</li>
+            </ul>
+          </div>
+
+          <div class="content-box">
+            <h3 class="box-title">💎 ದ್ವೈತ ತತ್ತ್ವದ ಪ್ರಮುಖ ಸಿದ್ಧಾಂತಗಳು</h3>
+            <table class="comparison-table">
+              <thead>
+                <tr>
+                  <th>ಪ್ರಮೇಯ</th>
+                  <th>ಹರಿವಂಶದ ಪ್ರಸ್ತುತತೆ</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>ಶ್ರೀಹರಿ ಸರ್ವೋತ್ತಮತ್ವ</td>
+                  <td>ನಾರಾಯಣನೇ ಸೃಷ್ಟಿಕರ್ತ, ಸೂರ್ಯಾದಿ ದೇವತೆಗಳಿಗೆ ತೇಜಸ್ಸು ನೀಡುವ ಅಂತರ್ಯಾಮಿ.</td>
+                </tr>
+                <tr>
+                  <td>ತಾರತಮ್ಯ ತತ್ತ್ವ</td>
+                  <td>ಬ್ರಹ್ಮ, ವಾಯು, ಸೂರ್ಯ, ಯಮ, ಪಿತೃಗಣಗಳು ಹಾಗೂ ಋಷಿಗಳಲ್ಲಿ ಶ್ರೇಣೀಕೃತ ಸ್ಥಾನಮಾನ.</td>
+                </tr>
+                <tr>
+                  <td>ಜೀವ ಭೇದ & ಕರ್ಮ ನಿಯಮ</td>
+                  <td>ಛಾಯಾದೇವಿಯ ಪಕ್ಷಪಾತ, ಕರ್ಮಫಲ ಪ್ರದಾತ ಶನಿಯ ಜನನ, ಮತ್ತು ಜೀವರ ಭಿನ್ನ ಯೋಗ್ಯತೆ.</td>
+                </tr>
+                <tr>
+                  <td>ಶ್ರಾದ್ಧ ಸತ್ಯತ್ವ</td>
+                  <td>ಅದೃಷ್ಟವಾದ ಪರಲೋಕದಲ್ಲಿ ಪಿತೃಗಳಿಗೆ ತೃಪ್ತಿಯಾಗುವುದು ಕಲ್ಪನೆಯಲ್ಲ, ಶಾಸ್ತ್ರೋಕ್ತ ಸತ್ಯ.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="speaker-cue-box">
+          <div class="speaker-cue-header">
+            <span class="speaker-cue-title">🎙️ ಉಪನ್ಯಾಸ ನಿರ್ದೇಶನ (Upanyasa Notes & Speaker Cues)</span>
+            <span class="speaker-cue-tag">ಉಪನ್ಯಾಸಕರಿಗೆ ಮಾರ್ಗದರ್ಶನ</span>
+          </div>
+          <p class="speaker-cue-text">ತಮ್ಮ ಉಪನ್ಯಾಸದಲ್ಲಿ ಈ ೫ ಸೂತ್ರಗಳನ್ನು ಸದಾ ಪಾಲಿಸಿರಿ. ಕಥೆ ಹೇಳುವಾಗ ಶ್ರೋತೃಗಳು ನಗೆಯಾಡಬಹುದು, ಆದರೆ ಕೊನೆಗೆ ಮನೆಗೆ ಹೋಗುವಾಗ ಅವರ ಮನಸ್ಸಿನಲ್ಲಿ ಭಗವದ್ಭಕ್ತಿ ಮತ್ತು ಧರ್ಮಾಚರಣೆಯ ಜ್ವಾಲೆ ಹೊತ್ತಿ ಉರಿಯುವಂತಿರಬೇಕು.</p>
+        </div>
+      </article>
+
+      <!-- ====================================================================
+           SLIDE 19: Shloka Kosha & Pramana Ratnamala
+           ==================================================================== -->
+      <article class="slide" data-index="19" data-parva="ಶ್ಲೋಕ ಕೋಶ" data-category="ಮೂಲ ಪ್ರಮಾಣಗಳು" data-keywords="ಶ್ಲೋಕ ಕೋಶ ಪ್ರಮಾಣ ರತ್ನಮಾಲಾ ಸಂಸ್ಕೃತ ಕಂಠಪಾಠ ವಂದೇ ವಂದ್ಯಂ ಹರಿವಂಶ ಕಥಾಂ ಶ್ರುತ್ವಾ">
+        <header class="slide-header">
+          <div class="slide-meta-row">
+            <span class="slide-katha-tag">📖 ಕಂಠಪಾಠ ಸೌಲಭ್ಯ • ಮೂಲ ಪ್ರಮಾಣ ಕೋಶ</span>
+            <span class="slide-number-badge">ಸ್ಲೈಡ್ ೧೯ / ೨೦</span>
+          </div>
+          <h2 class="slide-title">ಶ್ಲೋಕ ಕೋಶ ಹಾಗೂ ಪ್ರಮಾಣ ರತ್ನಮಾಲಾ</h2>
+          <p class="slide-subtitle">ಪ್ರವಚನಕಾರರ ತ್ವರಿತ ಉಲ್ಲೇಖಕ್ಕಾಗಿ ಮೊದಲ ದಿನದ ಸಮಸ್ತ ಸಂಸ್ಕೃತ ಶ್ಲೋಕಗಳ ಸಂಪುಟ</p>
+        </header>
+
+        <div class="slide-grid">
+          <div class="content-box">
+            <h3 class="box-title">📜 ಮಂಗಲ & ಫಲಶ್ರುತಿ ಶ್ಲೋಕಗಳು</h3>
+            <div class="shloka-box">
+              <div class="shloka-source">೧. ಮಧ್ವ ಪ್ರಾರ್ಥನೆ</div>
+              <div class="shloka-kannada">ವಂದೇ ವಂದ್ಯಂ ವಿಧಿಭವಮುಖೈರಾದಿಬೃಂದಾರಕೇಂದ್ರೈಃ ವ್ಯಕ್ತಂ ವ್ಯಕ್ತಂ ಸ್ವಗುಣಗಣತೋ ದೇಶತಃ ಕಾಲತಶ್ಚ । ಧೂತಾವದ್ಯಂ ಸುಖಚಿತಿಮಯಿರ್ಮಂಗಲೈರ್ಯುಕ್ತಮಂಗೈಃ ಸಾನಾಥ್ಯಂ ನೋ ವಿದಧದಧಿಕಂ ಬ್ರಹ್ಮ ನಾರಾಯಣಾಖ್ಯಮ್ ॥</div>
+            </div>
+            <div class="shloka-box">
+              <div class="shloka-source">೨. ಫಲಶ್ರುತಿ (ಸಂತಾನ ಪ್ರಾಪ್ತಿ)</div>
+              <div class="shloka-kannada">ಹರಿವಂಶ ಕಥಾಂ ಶ್ರುತ್ವಾ ಶತಚಂಡೀ ವಿಧಾನತಃ । ಭಕ್ತ್ಯಾ ಶ್ರೀಶಿವಮಾರಾಧ್ಯ ಪುತ್ರಮುತ್ಪಾದಯೇತ್ ಸುಧೀಃ ॥</div>
+            </div>
+            <div class="shloka-box">
+              <div class="shloka-source">೩. ಜನಮೇಜಯ ಪ್ರಾರ್ಥನೆ</div>
+              <div class="shloka-kannada">ಮಹಾಭಾರತಮಾಖ್ಯಾನಂ ಬಹ್ವರ್ಥಂ ಶ್ರುತಿವಿಸ್ತರಮ್ । ಕಥಿತಂ ಭವತಾ ಪೂರ್ವಂ ವಿಸ್ತರೇಣ ಮಯಾ ಶ್ರುತಮ್ ॥ ತತ್ರ ಶೂರಾಃ ಸಮಾಖ್ಯಾತಾ ಬಹವಃ ಪುರುಷರ್ಷಭಾಃ । ತತ್ರ ತತ್ರ ಸಮಾಸೇನ... ವಿಸ್ತರೇಣೈವ ಮೇ ಪ್ರಭೋ ॥</div>
+            </div>
+          </div>
+
+          <div class="content-box">
+            <h3 class="box-title">⚖️ ಧರ್ಮ & ಪಿತೃ ಶ್ಲೋಕಗಳು</h3>
+            <div class="shloka-box">
+              <div class="shloka-source">೪. ಸ್ತ್ರೀಧರ್ಮ ನೀತಿ</div>
+              <div class="shloka-kannada">ಸಕೃತ್ ಕನ್ಯಾ ಪ್ರದೀಯತೇ । ಪಿತಾ ರಕ್ಷತಿ ಕೌಮಾರೇ ಭರ್ತಾ ರಕ್ಷತಿ ಯೌವನೇ । ಪುತ್ರೋ ರಕ್ಷತಿ ವಾರ್ಧಕ್ಯೇ ನ ಸ್ತ್ರೀ ಸ್ವಾತಂತ್ರ್ಯಮರ್ಹತಿ ॥</div>
+            </div>
+            <div class="shloka-box">
+              <div class="shloka-source">೫. ಪಂಚ ಪಿತೃಗಳು</div>
+              <div class="shloka-kannada">ಪಂಚೈತೇ ಪಿತರಃ ಸ್ಮೃತಾಃ — ಜನಕ, ಉಪನಯನಕರ್ತ, ಅನ್ನದಾತ, ಜ್ಞಾನಗುರು, ಜ್ಯೇಷ್ಠಭ್ರಾತೃ.</div>
+            </div>
+            <div class="shloka-box">
+              <div class="shloka-source">೬. ಭೀಷ್ಮರ ಶಾಸ್ತ್ರವಾಕ್ಯ</div>
+              <div class="shloka-kannada">ನೈಷ ಕಲ್ಪೇ ವಿಧಿರ್ದೃಷ್ಟಃ (ದರ್ಭೆಯ ಮೇಲೆಯೇ ಪಿಂಡವಿಡುವ ಅಚಲ ವಿಧಿ).</div>
+            </div>
+            <div class="shloka-box">
+              <div class="shloka-source">೭. ಅಷ್ಟಾಂಗ ಪಿಂಡ ನಿರ್ಮಾಣ</div>
+              <div class="shloka-kannada">ತಿಲೈರ್ಯವೈಃ ಶಿರಃ ಪ್ರೋಕ್ತಂ ದಧ್ನಾ ನಾಸಾ ಪ್ರಕೀರ್ತಿತಾ । ಘೃತೇನ ಕರ್ಣೌ ವಿಜ್ಞೇಯೌ ಗುಡೇನ ಭುಜಯುಗ್ಮಕಮ್ ॥ ಕ್ಷೀರೇಣ ಹೃದಯಂ ಪ್ರೋಕ್ತಂ ಮಧುನಾ ರೋಮ ಸಂಚಯಃ । ಜಲೇನ ಪಾದಹಸ್ತಾದೀನ್ ಪಿಂಡಃ ಸ್ಯಾತ್ ಸೂಕ್ಷ್ಮದೇಹವಾನ್ ॥</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="speaker-cue-box">
+          <div class="speaker-cue-header">
+            <span class="speaker-cue-title">🎙️ ಉಪನ್ಯಾಸ ನಿರ್ದೇಶನ (Upanyasa Notes & Speaker Cues)</span>
+            <span class="speaker-cue-tag">ವೇದಿಕೆ ಟಿಪ್ಪಣಿ</span>
+          </div>
+          <p class="speaker-cue-text">ಈ ಶ್ಲೋಕಗಳನ್ನು ಕಂಠಸ್ಥ ಮಾಡಿಕೊಂಡರೆ ವೇದಿಕೆಯಲ್ಲಿ ಪ್ರವಚನಕಾರರ ಗೌರವ ಮತ್ತು ಪ್ರಭಾವ ಅಪಾರವಾಗಿ ಹೆಚ್ಚುತ್ತದೆ. ಶ್ಲೋಕದ ಪ್ರತಿ ಪದವನ್ನು ಬಿಡಿಸಿ ಹೇಳಿ ನಂತರ ತಾತ್ಪರ್ಯವನ್ನು ವಿವರಿಸುವುದು ಪ್ರಶಸ್ತ.</p>
+        </div>
+      </article>
+
+      <!-- ====================================================================
+           SLIDE 20: Day 01 Samapana, Mangalam & Next Day Preview
+           ==================================================================== -->
+      <article class="slide" data-index="20" data-parva="ಮಂಗಳಾರತಿ" data-category="ದಿನ ೧ ಸಮರ್ಪಣೆ" data-keywords="ಸಮರ್ಪಣೆ ಮಂಗಳಂ ಕೃಷ್ಣಾರ್ಪಣ ಮುಂದಿನ ದಿನ ಅಗ್ನಿಷ್ವಾತ್ತರು ಚಂದ್ರವಂಶ ಯಯಾತಿ ನಹುಷ ಯದುವಂಶ">
+        <header class="slide-header">
+          <div class="slide-meta-row">
+            <span class="slide-katha-tag">🌺 ಮಂಗಳಾರತಿ • ಪ್ರಥಮ ದಿನದ ಸಮಾರೋಪ</span>
+            <span class="slide-number-badge">ಸ್ಲೈಡ್ ೨೦ / ೨೦</span>
+          </div>
+          <h2 class="slide-title">ಪ್ರಥಮ ದಿನದ ಮಂಗಳ ಸಮರ್ಪಣೆ & ಮುಂದಿನ ದಿನದ ಮುನ್ನೋಟ</h2>
+          <p class="slide-subtitle">ಶ್ರೀಕೃಷ್ಣಾರ್ಪಣಮಸ್ತು ಹಾಗೂ ದಿನ ೦೨ ರ ಮಹೋನ್ನತ ಯದುವಂಶ ಕಥಾ ಪ್ರವೇಶ</p>
+        </header>
+
+        <div class="slide-grid">
+          <div class="content-box">
+            <h3 class="box-title">🙏 ಪ್ರಥಮ ದಿನದ ಸಮರ್ಪಣೆ</h3>
+            <ul class="concept-list">
+              <li class="concept-item"><strong>ದಿನ ೦೧ ರ ಸಾಧನೆ:</strong> ಹರಿವಂಶದ ಸ್ವರೂಪ ಮತ್ತು ಮಹಿಮೆಯಿಂದ ಆರಂಭಿಸಿ, ಫಲಶ್ರುತಿ, ಜನಮೇಜಯನ ಪ್ರಶ್ನೆ, ಸೂರ್ಯ-ಸಂಜ್ಞಾ-ಛಾಯಾ ಲೀಲೆ, ಅಶ್ವಿನೀ ಕುಮಾರರ ಜನನ, ಪಿತೃ ತತ್ತ್ವ, ಭೀಷ್ಮ-ಶಂತನು ಪ್ರಸಂಗ ಹಾಗೂ ವೈರಾಜ ಪಿತೃಗಣದ ವಂಶಾವಳಿಯವರೆಗೆ ಯಶಸ್ವಿಯಾಗಿ ನಿರೂಪಣೆ ಸಂಪನ್ನಗೊಂಡಿತು.</li>
+              <li class="concept-item"><strong>ಹರಿದಾಸ ಕೀರ್ತನ ಘೋಷಣೆ:</strong> ಹರಿದಾಸರ ಕೀರ್ತನೆಗಳು ಮತ್ತು ಜಯಘೋಷದೊಂದಿಗೆ ಮೊದಲ ದಿನದ ಪ್ರವಚನಕ್ಕೆ ಮಂಗಳಾರತಿ ಬೆಳಗಲಾಯಿತು.</li>
+              <li class="concept-item"><strong>ಕೃಷ್ಣಾರ್ಪಣ ಬುದ್ಧಿ:</strong> ಸಮಸ್ತ ಉಪನ್ಯಾಸದ ಪುಣ್ಯವನ್ನು ಶ್ರೀಮಧ್ವಾಂತರ್ಗತ ವಿಶ್ವಂಭರ ಲಕ್ಷ್ಮೀನಾರಾಯಣನ ಪಾದಕಮಲಗಳಲ್ಲಿ ಭಕ್ತಿಪೂರ್ವಕವಾಗಿ ಸಮರ್ಪಿಸಲಾಯಿತು.</li>
+            </ul>
+          </div>
+
+          <div class="content-box">
+            <h3 class="box-title">🔮 ದಿನ ೦೨ ರ ಭವ್ಯ ಮುನ್ನೋಟ (Day 02 Preview)</h3>
+            <ul class="concept-list">
+              <li class="concept-item"><strong>ಉಳಿದ ೬ ಪಿತೃಗಣಗಳ ವಿಸ್ತಾರ:</strong> ಅಗ್ನಿಷ್ವಾತ್ತರು, ಬರ್ಹಿಷದರು, ಸೋಮಪರು ಮುಂತಾದ ಪಿತೃಗಣಗಳ ಸಂಪೂರ್ಣ ರಹಸ್ಯ.</li>
+              <li class="concept-item"><strong>ಚಂದ್ರ ವಂಶದ ಉಗಮ:</strong> ಸೋಮನ ಜನನ, ತಾರಾ-ಶಶಾಂಕ ಪ್ರಸಂಗ, ಬುಧ ಹಾಗೂ ಪುರೂರವನ ಚರಿತ್ರೆ.</li>
+              <li class="concept-item"><strong>ನಹುಷ & ಯಯಾತಿ ರಾಜರ್ಷಿಗಳು:</strong> ನಹುಷನ ಸರ್ಪ ಶಾಪ, ಯಯಾತಿಯ ಜರಾ-ವಿನಿಮಯ ಹಾಗೂ ದೇವಯಾನಿ-ಶರ್ಮಿಷ್ಠೆಯರ ಆಖ್ಯಾಯಿಕೆ.</li>
+              <li class="concept-item"><strong>ಯದುವಂಶದ ಆವಿರ್ಭಾವ:</strong> ಯಯಾತಿಯ ಜ್ಯೇಷ್ಠ ಪುತ್ರ ಯದುವಿನಿಂದ ಆರಂಭವಾಗುವ, ಸಾಕ್ಷಾತ್ ಶ್ರೀಕೃಷ್ಣನು ಅವತರಿಸಿದ ಪರಮ ಪಾವನ <strong>ಯದು-ವೃಷ್ಣಿ-ಅಂಧಕ ವಂಶಗಳ</strong> ಉದ್ಘಾಟನೆ!</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="shloka-box">
+          <div class="shloka-source">ಮಂಗಳ ಮಹಾ ಶ್ಲೋಕ</div>
+          <div class="shloka-sanskrit">कायेन वाचा मनसेन्द्रियैर्वा बुद्ध्यात्मना वानुसृतस्वभावात् ।
+करोमि यद्यत् सकलं परस्मै नारायणायेति समर्पये तत् ॥
+मध्वेशार्पणमस्तु • श्रीकृष्णार्पणमಸ್ತು ॥</div>
+          <div class="shloka-kannada">ಕಾಯೇನ ವಾಚಾ ಮನಸೇಂದ್ರಿಯೈರ್ವಾ ಬುದ್ಧ್ಯಾತ್ಮನಾ ವಾನುಸೃತಸ್ವಭಾವಾತ್ ।
+ಕರೋಮಿ ಯದ್ಯತ್ ಸಕಲಂ ಪರಸ್ಮೈ ನಾರಾಯಣಾಯೇತಿ ಸಮರ್ಪಯೇ ತತ್ ॥
+ಮಧ್ವೇಶಾರ್ಪಣಮಸ್ತು • ಶ್ರೀಕೃಷ್ಣಾರ್ಪಣಮಸ್ತು ॥</div>
+        </div>
+
+        <div class="speaker-cue-box">
+          <div class="speaker-cue-header">
+            <span class="speaker-cue-title">🎙️ ಉಪನ್ಯಾಸ ನಿರ್ದೇಶನ (Upanyasa Notes & Speaker Cues)</span>
+            <span class="speaker-cue-tag">ಸಮಾರೋಪ & ಮುಂದಿನ ಆಹ್ವಾನ</span>
+          </div>
+          <p class="speaker-cue-text">ಸಭಿಕರಲ್ಲಿ ನಾಳೆಯ ಪ್ರವಚನದ ಬಗ್ಗೆ ಉತ್ಸುಕತೆ ಮೂಡುವಂತೆ: "ನಾಳೆ ಸಂಜೆ ೭ ಗಂಟೆಗೆ ಚಂದ್ರವಂಶ ಮತ್ತು ಶ್ರೀಕೃಷ್ಣನ ಅವತಾರಕ್ಕೆ ನಾಂದಿಯಾದ ಯದುವಂಶದ ರಹಸ್ಯವನ್ನು ಆಲಿಸಲು ತಪ್ಪದೇ ಆಗಮಿಸಿ" ಎಂದು ಪ್ರೀತಿಯಿಂದ ವಿನಂತಿಸಿ ಮಂಗಳ ಹಾಡಿ ಪ್ರವಚನವನ್ನು ಸಂಪನ್ನಗೊಳಿಸಬೇಕು.</p>
+        </div>
+      </article>
+
+    </div>
+  </main>
+
+  <!-- ==========================================================================
+       BOTTOM FLOATING CONTROLLER
+       ========================================================================== -->
+  <footer class="bottom-controller">
+    <div class="nav-btn-group">
+      <button class="btn-nav" id="prevBtn" title="ಹಿಂದಿನ ಸ್ಲೈಡ್ (Left Arrow / Backspace)">
+        <span>◀</span> ಹಿಂದಿನದು
+      </button>
+      <button class="btn-nav" id="nextBtn" title="ಮುಂದಿನ ಸ್ಲೈಡ್ (Right Arrow / Space)">
+        ಮುಂದಿನದು <span>▶</span>
+      </button>
+    </div>
+
+    <div class="progress-bar-container">
+      <div class="progress-track">
+        <div class="progress-fill" id="progressFill"></div>
+      </div>
+      <div class="progress-labels">
+        <span id="slideCounter">ಸ್ಲೈಡ್ ೧ / ೨೦</span>
+        <span id="parvaIndicator">ಗ್ರಂಥ ಸ್ವರೂಪ • ಖಿಲಪರ್ವ ವಿಭಾಗ</span>
+      </div>
+    </div>
+
+    <div class="shortcuts-hint">
+      <span class="key-badge">←</span> <span class="key-badge">→</span> ಸಂಚಾರ
+      <span class="key-badge">M</span> ಸೂಚಿ
+      <span class="key-badge">T</span> ಥೀಮ್
+      <span class="key-badge">P</span> ಪ್ರಿಂಟ್
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       VANILLA JAVASCRIPT PRESENTATION ENGINE
+       ========================================================================== -->
+  <script>
+    (function () {
+      'use strict';
+
+      // DOM Elements
+      const slides = Array.from(document.querySelectorAll('.slide'));
+      const totalSlides = slides.length;
+      let currentSlide = 1;
+
+      const prevBtn = document.getElementById('prevBtn');
+      const nextBtn = document.getElementById('nextBtn');
+      const slideCounter = document.getElementById('slideCounter');
+      const parvaIndicator = document.getElementById('parvaIndicator');
+      const progressFill = document.getElementById('progressFill');
+
+      const drawerOverlay = document.getElementById('drawerOverlay');
+      const drawerToggle = document.getElementById('drawerToggle');
+      const drawerClose = document.getElementById('drawerClose');
+      const drawerContent = document.getElementById('drawerContent');
+
+      const themeToggle = document.getElementById('themeToggle');
+      const themeIcon = document.getElementById('themeIcon');
+      const printBtn = document.getElementById('printBtn');
+      const slideSearch = document.getElementById('slideSearch');
+
+      // Populate Drawer Categories & Items
+      function buildDrawer() {
+        drawerContent.innerHTML = '';
+        
+        let currentCat = '';
+        slides.forEach((slide, index) => {
+          const slideNum = index + 1;
+          const parva = slide.getAttribute('data-parva') || 'ಸಾಮಾನ್ಯ';
+          const title = slide.querySelector('.slide-title')?.innerText || `ಸ್ಲೈಡ್ ${slideNum}`;
+          const subtitle = slide.querySelector('.slide-subtitle')?.innerText || '';
+
+          if (parva !== currentCat) {
+            currentCat = parva;
+            const catHeader = document.createElement('div');
+            catHeader.className = 'drawer-section-title';
+            catHeader.innerText = currentCat;
+            drawerContent.appendChild(catHeader);
+          }
+
+          const itemBtn = document.createElement('button');
+          itemBtn.className = `drawer-item ${slideNum === currentSlide ? 'active' : ''}`;
+          itemBtn.setAttribute('data-target', slideNum);
+          itemBtn.innerHTML = `
+            <div class="drawer-item-num">${slideNum}</div>
+            <div class="drawer-item-info">
+              <span class="drawer-item-title">${title}</span>
+              <span class="drawer-item-sub">${subtitle}</span>
+            </div>
+          `;
+
+          itemBtn.addEventListener('click', () => {
+            goToSlide(slideNum);
+            closeDrawer();
+          });
+
+          drawerContent.appendChild(itemBtn);
+        });
+      }
+
+      // Update Active Slide State
+      function goToSlide(n) {
+        if (n < 1) n = 1;
+        if (n > totalSlides) n = totalSlides;
+        currentSlide = n;
+
+        slides.forEach((slide, index) => {
+          if (index + 1 === currentSlide) {
+            slide.classList.add('active');
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+          } else {
+            slide.classList.remove('active');
+          }
+        });
+
+        // Update Controller UI
+        prevBtn.disabled = (currentSlide === 1);
+        nextBtn.disabled = (currentSlide === totalSlides);
+
+        slideCounter.innerText = `ಸ್ಲೈಡ್ ${currentSlide} / ${totalSlides}`;
+        const activeSlideEl = slides[currentSlide - 1];
+        const activeParva = activeSlideEl.getAttribute('data-parva') || 'ಹರಿವಂಶ';
+        const activeCat = activeSlideEl.getAttribute('data-category') || '';
+        parvaIndicator.innerText = `${activeParva} • ${activeCat}`;
+
+        const progressPercent = ((currentSlide) / totalSlides) * 100;
+        progressFill.style.width = `${progressPercent}%`;
+
+        // Update Drawer Highlight
+        const drawerItems = drawerContent.querySelectorAll('.drawer-item');
+        drawerItems.forEach((btn, idx) => {
+          if (idx + 1 === currentSlide) {
+            btn.classList.add('active');
+            btn.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+          } else {
+            btn.classList.remove('active');
+          }
+        });
+
+        // Store hash
+        window.location.hash = `slide-${currentSlide}`;
+      }
+
+      function nextSlide() {
+        if (currentSlide < totalSlides) {
+          goToSlide(currentSlide + 1);
+        }
+      }
+
+      function prevSlide() {
+        if (currentSlide > 1) {
+          goToSlide(currentSlide - 1);
+        }
+      }
+
+      // Drawer Open / Close
+      function openDrawer() {
+        drawerOverlay.classList.add('open');
+      }
+
+      function closeDrawer() {
+        drawerOverlay.classList.remove('open');
+      }
+
+      // Theme Toggle (Dark Temple Sanctuary vs Royal Parchment)
+      function toggleTheme() {
+        const body = document.body;
+        const currentTheme = body.getAttribute('data-theme') || 'dark';
+        if (currentTheme === 'dark') {
+          body.setAttribute('data-theme', 'parchment');
+          themeIcon.innerText = '🌙';
+          themeToggle.querySelector('.btn-text').innerText = 'ಕತ್ತಲು ಥೀಮ್';
+        } else {
+          body.setAttribute('data-theme', 'dark');
+          themeIcon.innerText = '📜';
+          themeToggle.querySelector('.btn-text').innerText = 'ಪಾರ್ಚ್‌ಮೆಂಟ್';
+        }
+      }
+
+      // Live Search / Filter Across Slides
+      function handleSearch(e) {
+        const query = e.target.value.trim().toLowerCase();
+        if (!query) return;
+
+        // Find first matching slide
+        const matchIndex = slides.findIndex(slide => {
+          const text = slide.innerText.toLowerCase();
+          const keywords = (slide.getAttribute('data-keywords') || '').toLowerCase();
+          return text.includes(query) || keywords.includes(query);
+        });
+
+        if (matchIndex !== -1) {
+          goToSlide(matchIndex + 1);
+        }
+      }
+
+      // Event Listeners
+      prevBtn.addEventListener('click', prevSlide);
+      nextBtn.addEventListener('click', nextSlide);
+
+      drawerToggle.addEventListener('click', openDrawer);
+      drawerClose.addEventListener('click', closeDrawer);
+      drawerOverlay.addEventListener('click', (e) => {
+        if (e.target === drawerOverlay) closeDrawer();
+      });
+
+      themeToggle.addEventListener('click', toggleTheme);
+      printBtn.addEventListener('click', () => window.print());
+
+      slideSearch.addEventListener('input', handleSearch);
+      slideSearch.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') {
+          // cycle to next match
+          const query = e.target.value.trim().toLowerCase();
+          if (!query) return;
+          const nextMatches = [];
+          slides.forEach((slide, idx) => {
+            const text = slide.innerText.toLowerCase();
+            const keywords = (slide.getAttribute('data-keywords') || '').toLowerCase();
+            if (text.includes(query) || keywords.includes(query)) {
+              nextMatches.push(idx + 1);
+            }
+          });
+          if (nextMatches.length > 0) {
+            const nextOne = nextMatches.find(n => n > currentSlide) || nextMatches[0];
+            goToSlide(nextOne);
+          }
+        }
+      });
+
+      // Keyboard Navigation
+      document.addEventListener('keydown', (e) => {
+        // Ignore if user is typing in search input
+        if (document.activeElement === slideSearch) {
+          if (e.key === 'Escape') {
+            slideSearch.blur();
+          }
+          return;
+        }
+
+        switch (e.key) {
+          case 'ArrowRight':
+          case 'PageDown':
+            e.preventDefault();
+            nextSlide();
+            break;
+          case 'ArrowLeft':
+          case 'PageUp':
+          case 'Backspace':
+            e.preventDefault();
+            prevSlide();
+            break;
+          case ' ': // Spacebar
+            e.preventDefault();
+            nextSlide();
+            break;
+          case 'Home':
+            e.preventDefault();
+            goToSlide(1);
+            break;
+          case 'End':
+            e.preventDefault();
+            goToSlide(totalSlides);
+            break;
+          case 'm':
+          case 'M':
+            e.preventDefault();
+            if (drawerOverlay.classList.contains('open')) {
+              closeDrawer();
+            } else {
+              openDrawer();
+            }
+            break;
+          case 't':
+          case 'T':
+            e.preventDefault();
+            toggleTheme();
+            break;
+          case 'p':
+          case 'P':
+            e.preventDefault();
+            window.print();
+            break;
+          case 'f':
+          case 'F':
+            e.preventDefault();
+            if (!document.fullscreenElement) {
+              document.documentElement.requestFullscreen().catch(() => {});
+            } else {
+              document.exitFullscreen().catch(() => {});
+            }
+            break;
+          case 'Escape':
+            closeDrawer();
+            break;
+        }
+      });
+
+      // Touch Swipe Gesture Support
+      let touchStartX = 0;
+      let touchEndX = 0;
+
+      document.addEventListener('touchstart', (e) => {
+        touchStartX = e.changedTouches[0].screenX;
+      }, { passive: true });
+
+      document.addEventListener('touchend', (e) => {
+        touchEndX = e.changedTouches[0].screenX;
+        handleSwipe();
+      }, { passive: true });
+
+      function handleSwipe() {
+        const threshold = 50;
+        if (touchEndX < touchStartX - threshold) {
+          nextSlide(); // swipe left -> next
+        }
+        if (touchEndX > touchStartX + threshold) {
+          prevSlide(); // swipe right -> prev
+        }
+      }
+
+      // Initialize
+      buildDrawer();
+
+      // Check URL Hash for initial slide
+      if (window.location.hash) {
+        const match = window.location.hash.match(/slide-(\d+)/);
+        if (match && match[1]) {
+          const slideFromHash = parseInt(match[1], 10);
+          if (slideFromHash >= 1 && slideFromHash <= totalSlides) {
+            goToSlide(slideFromHash);
+            return;
+          }
+        }
+      }
+
+      goToSlide(1);
+    })();
+  </script>
+</body>
+</html>
